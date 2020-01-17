@@ -1,0 +1,182 @@
+.formbox{
+    position: absolute;
+    width: 90%;
+    height: 863px;
+    background: #FFFFFF;
+    border: 16px solid #E6BA33;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-left: 89px;
+    margin-top: -30px;
+}
+
+.formhead{
+    font-size: 25px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.formhr{
+    width: 150px;
+    background: black;
+    height: 2px;
+    margin-left: 730px;
+    margin-top: -3px;
+}
+
+.register-box{
+    position: absolute;
+        width: 300px;
+        height: 400px;
+        position: absolute;
+        box-sizing: border-box;
+        margin-left: 1100px;
+        margin-top: -490px;
+}
+.pic{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 180px;
+}
+
+
+
+.vl5{
+    width: 3px;
+    height: 500px;
+    margin-left: 800px;
+    margin-top: 70px;
+    border: 4px solid #000000;
+ 
+}
+
+input{
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #7D7D7D;
+    box-sizing: border-box;
+    border-radius: 50px;
+    
+}
+
+.register-box p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold;
+}
+
+.name,.phone{
+        width: 270px;
+}
+.email,.org,.sser{
+    width: 400px;
+}
+:placeholder-shown{
+    font-style: italic;
+}
+
+.fa-phone{
+    position: relative;
+    font-size: 25px;
+    left: -40px;
+    top: 3px;
+    color: #7D7D7D;
+    
+}
+.sser{
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    height: 42px;
+    background: white;
+    border: 3px solid #7D7D7D;
+}
+.fa-chevron-down{
+    position: absolute;
+    font-size: 25px;
+    color: #7D7D7D;
+    margin-left: 369px;
+    margin-top: -53px;
+}
+
+.submitbtn{
+    position: absolute;
+    width: 155px;
+    height: 50px;
+    background: #7D7D7D;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #000000;
+    margin-left: -370px;
+
+}
+
+@media screen and (max-width: 560px) {
+    .formbox{
+        width: 100%;
+        margin-left: 0px;
+        height: 1200px;
+    }
+    .formhr{
+        margin-left: 150px;
+    }
+    .pic{
+        width: 360px;
+        height: 224px;
+        margin-top: 20px;
+        margin-left: 55px;
+    }
+    .register-box{
+        margin-left: 40px;
+        margin-top: -200px;
+    }
+    .submitbtn{
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+}
+
+
+.Contact-area2{
+    width: 100%;
+    height: 464px;
+    background: white;
+    margin-top: 100px;
+}
+.Group19{
+   margin-left: 905px;
+   margin-top: -1135px;
+}
+
+.contactbox{
+    position: absolute;
+    margin-top: 850px;
+}
+
+@media (max-width: 560px) {
+    .Contact-area2{
+        width: 480px;
+        height: 200px;
+        margin-top: 150px;
+       
+    }
+    .addressmap{
+        width: 480px;
+        height: 200px;
+    }
+}
+   
+   
+   
+    .contactbox{
+        margin-top: 1150px;
+    }

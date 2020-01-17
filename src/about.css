@@ -1,0 +1,584 @@
+/* This is about page */
+.card50{
+    width: 1200px;
+    height: 630px;
+    margin-top: -40px;
+    margin-left: 17%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.abouthead{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    justify-content: center;
+    margin-right: 0px;
+    margin-top: 40px;
+}
+
+.aboutunder{
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background: black;
+    left: 540px;
+    top: 60px;
+}
+
+.about-text{
+    margin-top: 30px;
+    margin-left: 210px;
+}
+
+.about-text{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 22px;
+}
+
+.ab1{
+    margin-left: -10px;
+}
+.ab2{
+    margin-left: -45px;
+}
+.ab3{
+    margin-left: -30px;
+}
+.ab4{
+    margin-left: 50px;
+}
+.ab5{
+    margin-left: -35px;
+}
+.ab6{
+    margin-left: 160px;
+}
+.ab7{
+margin-left: -58px;
+margin-top: 40px;
+}
+.ab8{
+    margin-left: -56px;
+}
+.ab9{
+    margin-left: -45px;
+}
+.ab10{
+    margin-left: -30px;
+}
+.ab11{
+    margin-left: 20px;
+}
+
+
+.Group4{
+    margin-top: -180px;
+    float: right;
+    margin-right: 20px;
+    height: 260px;
+}
+.Group5{
+    margin-top: -225px;
+    width: 130px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 560px) {
+    .card50{
+        margin-left: 40px;
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+    .abouthead{
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .aboutunder{
+        position: absolute;
+        width: 70px;
+        left: 213px;
+        top: 25px;
+        background: black;
+    }
+    .about-text,
+    .ab1,.ab2,.ab3,.ab4,.ab5,.ab6,.ab7,.ab8,.ab9,.ab10,.ab11{
+        font-size: 11px;
+        line-height: 1px;
+        margin-left: 30px;
+        margin-top: 10px;
+        
+    }
+   .Group4{
+       width: 35px;
+       height: 60px;
+       margin-top: -58px;
+       margin-right: 10px;
+   }
+   .Group5{
+       width:30px;
+       height: 50px;
+       margin-top: -78px;
+       margin-left: 10px;
+   }
+   .about-text{
+       margin-top: -1px;
+       width: 550px;
+       
+   }
+   .ab1{
+       margin-left: 40px;
+   }
+   .ab2{
+       margin-left: 18px;
+   }
+   .ab3{
+       margin-left: 25px;
+   }
+   .ab4{
+       margin-left: 65px;
+   }
+   .ab5{
+       margin-left: 20px;
+   }
+   .ab6{
+       margin-left: 100px;
+   }
+   .ab7{
+       margin-top: 20px;
+    margin-left: 6px;   
+   }
+   .ab8{
+        margin-left: 4px;
+   }
+   .ab9{
+       margin-left: 10px;
+    }
+   .ab10{
+       margin-left: 20px;
+    }
+   .ab11{
+       margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .ourteam{
+        width: 400px;
+        height: 100px;
+    }
+  
+}
+
+
+
+/* This is team section */
+
+
+
+
+.ourteam{
+    position: absolute;
+    width: 1200px;
+    height: 1680px;
+    margin-top: 100px;
+    margin-left: 17%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.teamhead{
+    position: absolute;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    margin-left: 565px;  
+}
+
+.teamhr{
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: black;
+    margin-top: 130px;
+    margin-left: 583px;
+    
+}
+.fa-instagram{
+    font-size: 40px;
+    color: #000000;
+    margin-left: 110px;
+}
+.fa-twitter-square{
+    font-size: 40px;
+    color: #000000;
+    margin-left: 20px;
+}
+.fa-facebook-square{
+    font-size: 40px;
+    color: #000000;
+    margin-left: 110px;
+}
+
+
+.teammember1{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    background: linear-gradient(90deg, #EFEFBB 0%, #D4D3DD 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-left: 17%;
+
+}
+
+.teammember2{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    background: linear-gradient(90deg, #C7D6ED 0%, #D4D3DD 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 700px;
+    margin-left: 17%;
+}
+.teammember3{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    background: linear-gradient(90deg, #C7D6ED 0%, #D4D3DD 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 1200px;
+    margin-left: 17%;
+}
+
+.Group37,.Group38,.Group39{
+    width: 210px;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+.vl3{
+    border-left: 6px solid black;
+    height: 190px;
+    margin-left: 300px;
+    margin-top: -155px;
+}
+.vl4{
+    border-left: 6px solid black;
+    height: 190px;
+    margin-left: 300px;
+    margin-top: -155px;
+}
+
+.membername1{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.membername12{
+    font-size: 10px;
+    margin-left: -488px;
+    letter-spacing: 0.02em;
+}
+    
+
+.membername2{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: 115px;
+    margin-top: -20px;
+}
+.membername21{
+    font-size: 10px;
+    margin-left: -488px;
+    letter-spacing: 0.02em;
+}
+
+.membername3{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: -20px;
+}
+.membername31{
+    font-size: 10px;
+    margin-left: -488px;
+    letter-spacing: 0.02em;
+}
+    
+
+.membertext{
+    font-size: 22px;
+    margin-left: 328px;
+    margin-top: -310px;
+    line-height: 10px;
+}
+
+.mt2{
+    margin-left: -12px;
+    margin-top: 15px;
+}
+.mt3{
+    margin-left:5px;
+    
+    margin-top: -5px;
+}
+.mt4{
+    margin-left: 0px;
+    margin-top: -5px;
+}
+.mt5{
+    margin-top: 30px;
+    margin-left: 0px;
+}
+.mt6{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.mt7{
+    margin-left: 5px;
+    margin-top: -3px;
+}
+.mt8{
+    margin-left: -10px;
+    margin-top: -4px;
+}
+.mt9{
+    margin-top: -3px;
+    margin-left: 20px;
+}
+
+
+
+
+@media screen and (max-width: 560px) {
+    .ourteam{
+        margin-left: 40px;
+        width: 400px;
+        height: 850px;
+    }
+    .teamhead{
+        font-size: 20px;
+        color: black;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    .teamhr{
+        width: 80px;
+        color: black;
+        margin-top: 50px;
+        position: absolute;
+        margin-left: 166px;
+    }
+
+    .teammember1{
+        width: 350px;
+        height: 220px;
+        margin-top: 100px;
+        margin-left: 27px;
+    }
+    .teammember2{
+        width: 350px;
+        height: 220px;
+        margin-top: 350px;
+        margin-left: 27px;
+    }
+    .teammember3{
+        width: 350px;
+        height: 220px;
+        margin-top: 600px;
+        margin-left: 27px;
+    }
+    .Group37,.Group38,.Group39{
+        width: 100px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .membertext{
+        font-size: 10px;
+        width: 200px;
+        line-height: 2px;
+        margin-left: 200px;
+        margin-top: -120px;
+    }
+    .membername1{
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: -13px;
+    }
+    .membername2,.membername3{
+        font-size: 18px;
+        margin-left: 30px;
+        margin-top: -13px;
+    }
+    
+    .vl3,.vl4{
+        height: 100px;
+        margin-left: 150px;
+        margin-top: -80px;
+    }
+    
+    .membername12,.membername21{
+        margin-left: -185px;
+        margin-top: 6px;
+    }
+    .mt2{
+        margin-left: 5px;
+        margin-top: -2px;
+    }
+    .mt4{
+        margin-left: -18px;
+    }
+    .mt5{
+        margin-left: 25px;
+        margin-top: -4px;
+    }
+    .fa-instagram{
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: -20px;
+    }
+    .fa-twitter-square{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .fa-facebook-square{
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: -20px;
+    }
+    .membername3{
+        margin-left: 10px;
+    }
+    .membername31{
+        margin-left: -200px;
+    }
+}
+
+/* This is testimony section */
+
+.testimony{
+    position: absolute;
+    width: 1200px;
+    height: 550px;
+    margin-top: 1900px;
+    margin-left: 17%;
+    background: white;
+}
+
+.group51{
+    width: 100%;
+    height: 100px;
+}
+.group52{
+    width: 100%;
+    height: 100px;
+    margin-top: 360px;
+}
+
+@media (max-width: 560px) {
+    .testimony{
+        position: absolute;
+        width: 400px;
+        height: 300px;
+        margin-left: 40px;
+        margin-top: 1000px;
+    }
+    .group51{
+        width: 100%;
+        height: 60px;
+    }
+    .group52{
+        width: 100%;
+        height: 60px;
+        margin-top: 180px;
+    }
+}
+
+
+.avatars{
+    width: 1200px;
+    height: 550px;
+    background-color: black;
+    margin-top: 2500px;
+    margin-left: 17%;
+}
+.avatar5{
+    position: absolute;
+    margin-left: -100px;
+}
+.avatar1{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 55px;
+}
+.avatar2{
+    margin-top: 300px;
+    margin-left: 300px;
+}
+.avatar3{
+    margin-top: 290px;
+    margin-left: 200px;
+}
+.avatar4{
+    margin-left: 200px;
+    margin-top: 340px;
+}
+
+@media (max-width: 560px) {
+    .avatars{
+      
+        width: 400px;
+        height: 300px;
+        margin-top: 1320px;
+        margin-left: 40px;
+        background: black;
+    }
+    .avatar1{
+        width: 60px;
+        height: 100px;
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    .avatar2{
+        width: 50px;
+        height: 100px;
+        margin-top: 200px;
+        margin-left: 110px;
+    }
+    .avatar3{
+        width: 50px;
+        height: 100px;
+        margin-top: 200px;
+        margin-left: 70px;
+    }
+    .avatar4{
+        width: 50px;
+        height: 100px;
+        margin-top: -130px;
+        margin-left: 340px;
+    }
+    .avatar5{
+        width: 50px;
+        height: 50px;
+        margin-top: -300px;
+        margin-left: -50px;
+    }
+}

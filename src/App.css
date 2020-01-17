@@ -1,0 +1,454 @@
+/* this is homepage header */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: black;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background:  #7D7D7D;
+  width: 115%;
+  height: 200px;
+}
+
+.logo{
+  position: absolute;
+  margin: 0;
+  margin-left: 300px;
+
+}
+
+.checkbtn{
+  font-size: 35px;
+  color: orange;
+  margin-left: 80%;
+  cursor: pointer;
+  line-height: 80px;
+  margin-top: -10px;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+.btn100{
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  margin-left:16px;
+  margin-top: -30px;
+  padding: 10px;
+}
+.get{
+  margin-left: -5px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 560px) {
+  .box
+  .logo{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+  }
+
+
+.nav-links{
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  margin-left: 205px;
+}
+
+a{
+  color: black;
+  font-size: 23px;
+  line-height: 20px;
+}
+
+@media (max-width: 500px) {
+  .nav-links{
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+.nav-link,ul,li,a{
+    font-size: 45px;
+    transform-origin: center;
+}
+}
+
+@media (max-width: 560px) {
+  .checkbtn{
+      display: block;
+  }
+  ul{
+      position: fixed;
+      width: 100%;
+      height: 200px;
+      background: whitesmoke;
+      top: 150px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+      z-index: 1;
+      line-height: 50px;
+     
+  }
+  nav ul li{
+      display: block;
+  }
+  nav ul li a{
+      font-size: 20px;
+      cursor: pointer;
+  }
+
+  #check:checked ~ ul{
+      left: 0;
+  }
+}
+
+
+@media (max-width: 560px) {
+  nav{
+    width: 100%;
+    height: 200px;
+  }
+  .btn100{
+    display: none;
+  }
+  
+}
+
+@media (max-width: 560px) {
+  html,body{
+    overflow-x: hidden;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* This is Homepage body */
+
+.card{
+  width: 1200px;
+  height: 550px;
+  margin-top: -40px;
+  margin-left: 17%;
+}
+
+.card-text{
+  margin-left: 80px;
+  margin-top: 25%;
+  line-height: 30px;
+  font-size: 20px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif; 
+  color: #000000;
+  }
+h3{
+  font-size: 26px;
+ 
+}
+h4{
+  font-size: 26px;
+  margin-left: -5px;
+ 
+}
+
+.header1234{
+  margin-left: 10px;
+  
+}
+.col-md-4,.vector{
+  position: absolute;
+  margin-top: 20px;
+  right: 200px;
+  margin-right:-150px;
+  margin-top: 50px;
+}
+.vector{
+  position: absolute;
+  width: 500px;
+  margin-left: 110px;
+}
+
+@media screen and (max-width: 500px) {
+  .card{
+      margin-left: 40px;
+      width: 400px;
+      height: 200px;
+  }
+  .card-text,
+  h3,h4{
+      font-size: 11px;
+  }
+  .col-md-4{
+      position: absolute;
+      margin-right: -200px;
+      max-width: 150px;
+      margin-top: -3px;
+  }
+  .vector{
+      position: absolute;
+      max-width: 150px;
+      margin-left: 50px;
+  }
+  .card-text{
+      margin-top: 29px;
+      margin-left: 10px;
+  }
+}
+
+/* This is services section */
+
+
+.Service{
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 100px;
+  width: 1422px;
+  height: 403px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+}
+
+
+.card1{
+  width: 167px;
+  height: 180px;
+  background: #E5E5E5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  margin-top: 120px;
+  margin-right: 10x;
+  margin-left: 100px;
+}
+
+.card1
+.s1{
+  position: absolute;
+  left: 50px;
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.card1
+.big{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+
+}
+.card1
+.headerpart987{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+.card1
+.txt{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  margin-top: 90px;
+}
+
+.headerpart789{
+  font-weight: 600;
+}
+
+.dot {
+ width: 7px;
+ height: 7px;
+ background-color: black;
+ border-radius: 50%;
+ position: relative;
+ display: inline-block;
+ margin: 0 4px;
+ left: 55px;
+ top: -20px;
+ 
+}
+
+
+.card2 {
+  position: absolute;
+  top: 10%;
+  bottom: 10px;
+  left: -50px;
+  right: 0px;
+  height: 210px;
+  width: 192px;
+  opacity: 0;
+  transition: .5s ease;
+  z-index: 1;
+  background: #FFFFFF;
+  border: 3px solid #96A3C1;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  transform: scale(1.05);
+}
+.card1:hover .card2  {
+  opacity: 1;
+}
+
+h5{
+  font-family: 'Poppins', sans-serif; 
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.text
+.t
+{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+.text
+.tx{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+text-align: center;
+  margin-top: -15px;
+}
+.text
+.tt{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  margin-top: -15px;
+}
+.text
+.ttx{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  margin-top: -15px;
+}
+.text
+.tttx{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.fa-arrow-right{
+ 
+  margin-left: 80px;
+  font-size: 20px;
+  width: 50px;
+}
+
+.Third{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 675px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+.new2{
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 678px;
+  width: 80px;
+  border: 2px solid #000000;
+}
+
+
+@media (max-width: 500px) {
+  .Service{
+      position: absolute;
+      top: 450px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .Third{
+      margin-left: 200px;
+  }
+  .new2{
+      margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Service{
+      width: 480px;
+      height: 950px;
+      margin: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .card1,.card2{
+      margin-left: 50px;
+      
+  }
+}
+
+@media (max-width: 500px) {
+  .btn80{
+      display: none;
+  }
+}
+
+
+
