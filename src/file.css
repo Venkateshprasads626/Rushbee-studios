@@ -771,5 +771,78 @@ a:hover{
 
 /* this is for phones */
 @media screen and (max-width: 375px) {
+        .container-fluid{
+            width: 100%;
+            margin-left: 40px;
+        }
+        .first{
+            font-size: 15px;
+            margin-left: -35px;
+        }
+        .vl1{
+            margin-top: 13px;
+            margin-left: -25px;
+            position: absolute;
+        }
 
+        .vl2{
+            position: absolute;
+            margin-left: -25px;
+            margin-top:238px;
+        }
+        .details1{
+            margin-left: -200px;
+        }
+        .details2{
+            margin-left: -180px;
+        }
+        .second{
+            font-size: 15px;
+            margin-top: 140px;
+            margin-left: -35px;
+        }
+        h2{
+            font-size: 15px;
+            
+        }
+        .address{
+            font-size: 11px;
+            text-align: start;
+            margin-left: -30px;
+        }
+        .navbar,.icon3{
+            display: none;
+        }
+
+        .icon1{
+            left: 10px;
+            font-size: 25px;
+            margin-left: -380px;
+            margin-top: -10px;
+        }
+        .icon2{
+            margin-left: -300px;
+            font-size: 25px;
+            margin-top: -38px;
+        }
+        .fa-instagram{
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .btn2{
+            margin-top: -20px;
+            margin-left: 150px;
+        }
+}
+@media screen and (max-width: 375px) {
+    .Contact-area{
+        margin-top: 600px;
+        height: 150px;
+    }
+    .addressmap{
+        height: 150px;
+    }
+    .Group19{
+        display: none;
+    }
 }
