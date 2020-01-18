@@ -15,15 +15,14 @@ import Group65 from './images/Group65.png'
 
 
 
-
-
  
 class portfolio extends Component {
   render() {
     return (
       <div className="portfoliopage">
       <div className="portfolio">
-      
+  
+
       </div>
 
       
@@ -93,6 +92,7 @@ class portfolio extends Component {
             </div>
             </footer>
       </div>
+ 
  
     );
   }

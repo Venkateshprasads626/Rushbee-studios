@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './file.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import Vector from './images/Vector.png'
 import s1 from './images/s1.png'
 import web from './images/web.png'
