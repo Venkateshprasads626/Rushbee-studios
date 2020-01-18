@@ -52,7 +52,7 @@ class Home extends Component {
         <div className="Service">
                 <h2 className="Third">Services</h2>
                 <hr className="new2"></hr>
-                <div className="card  card1">
+                <div className="card1">
                     <img className="s1" src={s1} alt=""></img>
                         <div className="txt">
                             <h3 className="headerpart987">UI / UX</h3>
@@ -66,7 +66,7 @@ class Home extends Component {
                             </div>
 
                     
-                                <div className="card  card2">
+                                <div className="card2">
                                         <div className="text">
                                             <h5>UI / UX</h5>
                                             <h5>DESIGN</h5>
@@ -81,8 +81,8 @@ class Home extends Component {
 
                             
                 </div>
-                <div className="card  card1">
-                    <img className="s1" src={web} alt=""></img>
+                <div className="card1">
+                    <img className="s2" src={web} alt=""></img>
                         <div className="txt">
                             <h3 className="headerpart987">WEB</h3>
                             <p>DESIGN</p>
@@ -94,7 +94,7 @@ class Home extends Component {
                                 <span className="dot"></span>
                             </div>
 
-                            <div className="card  card2">
+                            <div className="card3">
                                 <div className="text">
                                     <h5>WEB</h5>
                                     <h5>DESIGN</h5>
@@ -108,8 +108,8 @@ class Home extends Component {
                                         
                             </div>
                 </div>
-                <div className="card  card1">
-                    <img className="s1" src={brand} alt=""></img>  
+                <div className="card1">
+                    <img className="s3" src={brand} alt=""></img>  
                         <div className="txt">
                             <h3 className="headerpart987">BRAND</h3>
                             <p>CREATION</p>
@@ -120,7 +120,7 @@ class Home extends Component {
                                 <span className="dot"></span>
                                 <span className="dot"></span>
                             </div>
-                            <div className="card  card2">
+                            <div className="card4">
                                 <div className="text">
                                     <h5>BRAND</h5>
                                     <h5>CREATION</h5>
@@ -128,13 +128,13 @@ class Home extends Component {
                                     <p className="tx">create Names,</p>
                                     <p className="tt">We create</p>
                                     <p className="ttx">Brands.</p>
-                                    
+
                                 </div>
                                         
                                 </div>
                 </div>
-                <div className="card  card1">
-                    <img className="s1" src={design} alt=""></img>  
+                <div className="card1">
+                    <img className="s4" src={design} alt=""></img>  
                         <div className="txt">
                             <h3 className="headerpart987">PACKAGE</h3>
                             <p>DESIGN</p>
@@ -146,22 +146,22 @@ class Home extends Component {
                                 <span className="dot"></span>
                             </div>
 
-                            <div className="card  card2">
+                            <div className="card5">
                                 <div className="text">
                                     <h5>PACKAGE</h5>
                                     <h5>DESIGN</h5>
-                                    <p className="t">Creating an eye-catching</p>
-                                    <p className="tx">pacaging design that</p>
-                                    <p className="tt">suits the product, stands</p>
-                                    <p className="ttx">out on crowed shelves.</p>
-                               
+                                    <p className="t">Creating an </p>
+                                    <p className="tx">eye-catching </p>
+                                    <p className="tt">pacaging design that </p>
+                                    <p className="ttx">suits the product, stands</p>
+                                    <p className="tttx">out on crowed shelves.</p>
                                     
                                 </div>
                                         
                                 </div>
                 </div>
-                <div className="card  card1 ab">
-                    <img className="s1" src={birthday} alt=""></img>
+                <div className="card1 ab">
+                    <img className="s5" src={birthday} alt=""></img>
                         <div className="txt">
                             <h3 className="headerpart987">DIGITAL</h3>
                             <p>MARKETING</p>
@@ -173,7 +173,7 @@ class Home extends Component {
                                 <span className="dot"></span>
                             </div>
 
-                            <div className="card  card2">
+                            <div className="card6">
                                 <div className="text">
                                     <h5>EVENT</h5>
                                     <h5>DESIGN</h5>

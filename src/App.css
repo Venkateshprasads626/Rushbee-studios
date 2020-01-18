@@ -187,12 +187,10 @@ h4{
 
 /* this is for mobile */
 @media screen and (max-width: 425px) {
-  .card{
-    
+  .card{  
     width: 93%;
     height: 200px;
     margin-left: 4%;
-   
   }
   h3{
     font-size: 13px;
@@ -215,6 +213,27 @@ h4{
   }
 }
 
+/* this is for phones*/
+@media screen and (max-width: 375px) {
+  .card-text{
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  h3{
+    font-size: 12px;
+  }
+  h4{
+    font-size: 12px;
+  }
+
+  .col-md-4,.vector{
+    width: 150px;
+    height: 110px;
+    top: -30px;
+    float: left;
+    left: 16%;
+  }
+}
 
 
 
@@ -250,12 +269,35 @@ h4{
 .card1
 .s1{
   position: absolute;
-  left: 50px;
+  left: 150px;
   width: 60px;
   height: 60px;
   margin-top: 10px;
 }
-
+.card1
+.s2{
+    position: absolute;
+    left: 420px;
+    margin-top: 10px;
+}
+.card1
+.s3{
+    position: absolute;
+    left: 690px;
+    margin-top: 10px;
+}
+.card1
+.s4{
+    position: absolute;
+    left: 67%;
+    margin-top: 10px;
+}
+.card1
+.s5{
+    position: absolute;
+    left: 86%;
+    margin-top: 10px;
+}
 .card1
 .big{
   font-family: Poppins;
@@ -310,9 +352,9 @@ h4{
 
 .card2 {
   position: absolute;
-  top: 10%;
+  top: 25%;
   bottom: 10px;
-  left: -50px;
+  left: 90px;
   right: 0px;
   height: 210px;
   width: 192px;
@@ -326,6 +368,86 @@ h4{
   transform: scale(1.05);
 }
 .card1:hover .card2  {
+  opacity: 1;
+}
+.card3 {
+  position: absolute;
+  top: 25%;
+  bottom: 10px;
+  left: 25%;
+  right: 0px;
+  height: 210px;
+  width: 192px;
+  opacity: 0;
+  transition: .5s ease;
+  z-index: 1;
+  background: #FFFFFF;
+  border: 3px solid #96A3C1;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  transform: scale(1.05);
+}
+.card1:hover .card3  {
+  opacity: 1;
+}
+.card4 {
+  position: absolute;
+  top: 25%;
+  bottom: 10px;
+  left: 43.5%;
+  right: 0px;
+  height: 210px;
+  width: 192px;
+  opacity: 0;
+  transition: .5s ease;
+  z-index: 1;
+  background: #FFFFFF;
+  border: 3px solid #96A3C1;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  transform: scale(1.05);
+}
+.card1:hover .card4  {
+  opacity: 1;
+}
+.card5 {
+  position: absolute;
+  top: 25%;
+  bottom: 10px;
+  left: 62.5%;
+  right: 0px;
+  height: 210px;
+  width: 192px;
+  opacity: 0;
+  transition: .5s ease;
+  z-index: 1;
+  background: #FFFFFF;
+  border: 3px solid #96A3C1;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  transform: scale(1.05);
+}
+.card1:hover .card5  {
+  opacity: 1;
+}
+.card6 {
+  position: absolute;
+  top: 25%;
+  bottom: 10px;
+  left: 81%;
+  right: 0px;
+  height: 210px;
+  width: 192px;
+  opacity: 0;
+  transition: .5s ease;
+  z-index: 1;
+  background: #FFFFFF;
+  border: 3px solid #96A3C1;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  transform: scale(1.05);
+}
+.card1:hover .card6  {
   opacity: 1;
 }
 
@@ -426,9 +548,54 @@ text-align: center;
   .card1{
       margin-left: 150px;
   }
+  .s1{
+    margin-left: 53px;
+  }
+  .s2{
+    margin-left: 95px;
+  }
+  .s3{
+    margin-left: -485px;
+  }
+  .s5{
+    margin-left: -310px;
+  }
   .ab{
     margin-left: 300px;
   }
+  .card2 {
+    position: absolute;
+    top: 10%;
+    left: 18%;
+  }
+  .card3 {
+    position: absolute;
+    top: 10%;
+    left: 59%;
+  }
+  .card4 {
+    position: absolute;
+    top: 37%;
+    left: 18%;
+  }
+  .card5 {
+    position: absolute;
+    top: 37%;
+    left: 59%;
+  }
+  .card6 {
+    position: absolute;
+    top: 64%;
+    left: 38%;
+  }
+
+
+
+
+
+
+
+
 }
 
 /* this is for mobile*/
@@ -451,5 +618,47 @@ text-align: center;
   }
   .ab{
     margin-left: 150px;
+  }
+}
+
+/* this is for phones */
+
+@media screen and (max-width: 375px) {
+  .card1{
+    margin-left: 14px;
+  }
+  .ab{
+    margin-left: 100px;
+  }
+  .s5{
+    margin-left: -170px;
+  }
+  .s3{
+    margin-left: -620px;
+  }
+  .s1{
+    margin-left: -85px;
+    top: 130px;
+  }
+  .s2{
+    margin-left: -174px;
+  }
+  .card2{
+      left: 0px;
+  }
+  .card3{
+      left: 180px;
+  }
+  .card4{
+    left: 0px;
+    margin-top: 35px;
+  }
+  .card5{
+    left: 180px;
+    margin-top: 35px;
+  }
+  .card6{
+    left: 88px;
+    margin-top: 60px;
   }
 }
