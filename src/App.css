@@ -53,14 +53,6 @@ nav{
   font-size: 18px;
 }
 
-@media screen and (max-width: 560px) {
-  .box
-  .logo{
-    margin-left: 0px;
-    margin-top: 0px;
-}
-  }
-
 
 .nav-links{
   width: 25%;
@@ -77,67 +69,45 @@ a{
   line-height: 20px;
 }
 
-@media (max-width: 500px) {
-  .nav-links{
-      flex-direction: column;
+@media only screen and (max-width: 600px) {
+  html,body{
+    overflow-x: hidden;
+
   }
 }
 
-@media (max-width: 500px) {
-.nav-link,ul,li,a{
-    font-size: 45px;
-    transform-origin: center;
-}
-}
-
-@media (max-width: 560px) {
-  .checkbtn{
-      display: block;
-  }
-  ul{
-      position: fixed;
-      width: 100%;
-      height: 200px;
-      background: whitesmoke;
-      top: 150px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
-      z-index: 1;
-      line-height: 50px;
-     
-  }
-  nav ul li{
-      display: block;
-  }
-  nav ul li a{
-      font-size: 20px;
-      cursor: pointer;
-  }
-
-  #check:checked ~ ul{
-      left: 0;
-  }
-}
-
-
-@media (max-width: 560px) {
+@media only screen and (max-width: 600px) {
   nav{
     width: 100%;
     height: 200px;
   }
+  .box,
+  .logo{
+    margin-left: 0px;
+  }
+  .checkbtn{
+    display: block;
+  }
   .btn100{
     display: none;
   }
-  
-}
-
-@media (max-width: 560px) {
-  html,body{
-    overflow-x: hidden;
+  .nav-links{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+    line-height: 100px;
+    width: 100%;
+    margin-left: 0px;
+    flex-direction: column;
+    background: red;
+    z-index: 1;
+    display: none;
   }
-
+ 
 }
+
+
+
 
 
 
@@ -193,25 +163,25 @@ h4{
   margin-left: 110px;
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .card{
-      margin-left: 40px;
-      width: 400px;
+      margin-left: 50px;
+      width: 500px;
       height: 200px;
   }
   .card-text,
   h3,h4{
-      font-size: 11px;
+      font-size: 15px;
   }
   .col-md-4{
       position: absolute;
-      margin-right: -200px;
-      max-width: 150px;
-      margin-top: -3px;
+      margin-right: -220px;
+      max-width: 180px;
+      margin-top: -18px;
   }
   .vector{
       position: absolute;
-      max-width: 150px;
+      max-width: 210px;
       margin-left: 50px;
   }
   .card-text{
@@ -219,6 +189,10 @@ h4{
       margin-left: 10px;
   }
 }
+
+
+
+
 
 /* This is services section */
 
@@ -412,43 +386,39 @@ text-align: center;
 }
 
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .Service{
       position: absolute;
-      top: 450px;
+      width: 100%;
+      margin: 0px;
+      height: 1000px;
   }
 }
 
 
-@media (max-width: 500px) {
+
+@media only screen  and (max-width: 600px) {
   .Third{
-      margin-left: 200px;
+     margin-left: 0px;
+     color: red;
   }
   .new2{
       margin-left: 200px;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .Service{
-      width: 480px;
-      height: 950px;
-      margin: 0px;
-  }
-}
 
-@media (max-width: 500px) {
+
+@media only screen and (max-width: 600px) {
   .card1,.card2{
-      margin-left: 50px;
+      justify-items: center;
       
   }
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .btn80{
       display: none;
   }
 }
-
-
 

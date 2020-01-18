@@ -341,124 +341,88 @@
     margin-top: -16px;
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .client-area{
         width: 100%;
-        height: 500px;
-        margin-top: 1100px;
         margin-left: 0px;
-        margin-right: 0px;
-        border-radius: 0px;
+        top: 900px;
     }
     .clienthead{
-        font-size: 20px;
-        margin-top: 55px;
-        margin-left: 200px;
+        margin-left: 0px;
     }
     .horizantalline{
-        margin-left: 210px;
+        margin-left: 0px;
     }
-}
-@media (max-width: 500px) {
+    .overlay,.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6,.overlay7,.overlay8,.overlay9{
+        display: none;
+    }
     .card7,.a1{
         width: 100px;
         height: 50px;
-        margin: 20px;
-        top: 15%;
     }
     .card8,.a2{
-        width: 80px;
-        height: 30px;
-        margin-left: 110px;
-        margin-top: 63px;
-   
+        width: 100px;
+        height: 50px;
     }
     .card9,.a3{
-        width: 80px;
+        width: 100px;
         height: 50px;
-        margin-top: -37px;
-        left: -115%;
-    }
-    .a3{
-        width: 80px;
-        height: 50px;
-        margin-top: -1px;
     }
     .card10,.a4{
         width: 100px;
-        height: 80px;
-        margin-left: 20px;
-        margin-top: 240px;
-        
-    }
-    .a4{
-        width: 100px;
-        height: 80px;
-        margin-top: -1px;
+        height: 50px;
     }
     .card11,.a5{
         width: 100px;
-        height: 80px;
-        left: -65%;
-        top: -105px;  
-    }
-    .a5{
-        width: 100px;
-        height: 80px;
-        margin-top: -1px;
+        height: 50px;
     }
     .card12,.a6{
         width: 100px;
-        height: 80px;
-        left: -118%;
-        margin-top: 250px;
-    }
-    .a6{
-        width: 100px;
-        height: 80px;
-        margin-top: -2px;
+        height: 50px;
     }
     .card13,.a7{
-        width: 120px;
-        height: 80px;
-        margin-left: 20px;
-        margin-top: 400px;
-        
-    }
-    .a7{
-        width: 120px;
-        height: 80px;
-        margin-top: -1px;
+        width: 100px;
+        height: 50px;
     }
     .card14,.a8{
         width: 100px;
-        height: 80px;
-        left: -65%;
-        top: -25%;
-        
-    }
-    .a8{
-        width: 100px;
-        height: 80px;
-        margin-top: 5px;
+        height: 50px;
     }
     .card15,.a9{
-        width: 120px;
-        height: 80px;
-        left: -120%;
-        top: -25%;
+        width: 100px;
+        height: 50px;
     }
-    .a9{
-        width: 120px;
-        height: 80px;
+    .card8,.a2,
+    .card11,.a5,
+    .card14,.a8{
+        position: absolute;
+        margin-left: 120px;
+    }
+    .card7,.a1,
+    .card10,.a4,
+    .card13,.a7{
+        position: absolute;
+        margin-left: 10px;
+    }
+    .card9,.a3,
+    .card12,.a6,
+    .card15,.a9{
+        position: absolute;
+        margin-left: 210px;
     }
 }
-@media (max-width: 500px) {
-    .text-area,.overlay,.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6,.overlay7,.overlay8{
-        display: none;
-        border:none;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+/* this is footer section */
 
 .Contact-area{
     width: 100%;
@@ -473,14 +437,8 @@
     top: 327px;
 }
 
-@media screen and (max-width: 560px) {
-    .Contact-area{
-        width: 100%;
-        top: 10px;
-     
-    }
-}
-/* This is footer section */
+
+
 
 footer{
     margin-top: 0px;
@@ -646,7 +604,7 @@ a:hover{
     font-weight: bold;
 }
 
-@media (max-width: 560px) {
+@media only screen and  (max-width: 600px) {
     .Contact-area{
         width: 100%;
         height: 200px;
@@ -660,12 +618,12 @@ a:hover{
     }
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     footer{
         width: 100%;
         height: 100%; 
         bottom: 0;    
-        padding: 20px;   
+        padding: 50px;   
     }
     .container-fluid{
         width: 100%;
@@ -677,7 +635,7 @@ a:hover{
     }
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .first{
         margin: 0px;
         font-size: 15px;
@@ -726,7 +684,7 @@ a:hover{
     }
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .new1{
         /* margin-top: 15px;
         width: 100%;
@@ -742,7 +700,7 @@ a:hover{
         font-size: 16px;
     }
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .navbar{
         display: none;
     }
@@ -750,8 +708,9 @@ a:hover{
         display: none;
     }
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .address,h2{
         font-size: 15px;
     }
 }
+/* This is min width */

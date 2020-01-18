@@ -91,7 +91,7 @@ margin-top: 40px;
     margin-left: 30px;
 }
 
-@media screen and (max-width: 560px) {
+@media only screen and (max-width: 600px) {
     .card50{
         margin-left: 40px;
         width: 100%;
@@ -171,13 +171,6 @@ margin-top: 40px;
     }
 }
 
-@media screen and (max-width: 560px) {
-    .ourteam{
-        width: 400px;
-        height: 100px;
-    }
-  
-}
 
 
 
@@ -368,7 +361,9 @@ margin-top: 40px;
 
 
 
-@media screen and (max-width: 560px) {
+
+
+@media only screen and (max-width: 600px) {
     .ourteam{
         margin-left: 40px;
         width: 400px;
