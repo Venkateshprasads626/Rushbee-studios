@@ -30,7 +30,7 @@ nav{
 .checkbtn{
   font-size: 35px;
   color: orange;
-  margin-left: 80%;
+  margin-left: 100%;
   cursor: pointer;
   line-height: 80px;
   margin-top: -10px;
@@ -69,20 +69,13 @@ a{
   line-height: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-  html,body{
-    overflow-x: hidden;
-
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  nav{
+/* This is Tablet */
+@media screen and (max-width: 768px) {
+  .nav{
     width: 100%;
     height: 200px;
   }
-  .box,
-  .logo{
+  .box,.logo{
     margin-left: 0px;
   }
   .checkbtn{
@@ -91,23 +84,27 @@ a{
   .btn100{
     display: none;
   }
-  .nav-links{
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 50px;
-    line-height: 100px;
-    width: 100%;
-    margin-left: 0px;
-    flex-direction: column;
-    background: red;
-    z-index: 1;
-    display: none;
-  }
- 
 }
 
 
 
+/* This is mobile */
+
+@media screen and (max-width: 768px) {
+  .nav{
+    width: 100%;
+    height: 200px;
+  }
+  .box,.logo{
+    margin-left: 0px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  .btn100{
+    display: none;
+  }
+}
 
 
 
@@ -163,33 +160,60 @@ h4{
   margin-left: 110px;
 }
 
-@media only screen and (max-width: 600px) {
+/* this is tablet */
+
+@media screen and (max-width: 768px) {
   .card{
-      margin-left: 50px;
-      width: 500px;
-      height: 200px;
+    width: 90%;
+    height: 400px;
+    margin-left: 40px;
   }
-  .card-text,
-  h3,h4{
-      font-size: 15px;
+  h3{
+    font-size: 22px;
   }
-  .col-md-4{
-      position: absolute;
-      margin-right: -220px;
-      max-width: 180px;
-      margin-top: -18px;
-  }
-  .vector{
-      position: absolute;
-      max-width: 210px;
-      margin-left: 50px;
+  h4{
+    font-size: 22px;
   }
   .card-text{
-      margin-top: 29px;
-      margin-left: 10px;
+    margin-left: 50px;
+  }
+  .col-md-4,.vector{
+    width: 300px;
+    height: 200px;
+    float: left;
+    left: 30%;
   }
 }
 
+/* this is for mobile */
+@media screen and (max-width: 425px) {
+  .card{
+    
+    width: 93%;
+    height: 200px;
+    margin-left: 4%;
+   
+  }
+  h3{
+    font-size: 13px;
+  }
+  h4{
+    font-size: 13px;
+  }
+
+  .card-text{
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  .col-md-4,.vector{
+    width: 200px;
+    height: 150px;
+    top: -40px;
+    float: left;
+    left: 10%;
+  }
+}
 
 
 
@@ -385,40 +409,47 @@ text-align: center;
   border: 2px solid #000000;
 }
 
+/* This is for tablet */
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .Service{
-      position: absolute;
-      width: 100%;
-      margin: 0px;
-      height: 1000px;
+    width: 100%;
+    height: 1100px;
+    margin-left: 0px;
   }
-}
-
-
-
-@media only screen  and (max-width: 600px) {
   .Third{
-     margin-left: 0px;
-     color: red;
+    margin-left: 350px;
   }
   .new2{
-      margin-left: 200px;
+    margin-left: 354px;
+  }
+  .card1{
+      margin-left: 150px;
+  }
+  .ab{
+    margin-left: 300px;
   }
 }
 
+/* this is for mobile*/
 
-
-@media only screen and (max-width: 600px) {
-  .card1,.card2{
-      justify-items: center;
-      
+@media screen and (max-width: 425px) {
+  .Service{
+    width: 100%;
+    height: 1000px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .card1{
+    margin-left: 29px;
+  }
+  .Third{
+    margin-left: 170px;
+  }
+  .new2{
+    margin-left: 174px;
+  }
+  .ab{
+    margin-left: 150px;
   }
 }
-
-@media only screen and (max-width: 600px) {
-  .btn80{
-      display: none;
-  }
-}
-

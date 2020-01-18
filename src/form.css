@@ -120,30 +120,7 @@ input{
 
 }
 
-@media screen and (max-width: 560px) {
-    .formbox{
-        width: 100%;
-        margin-left: 0px;
-        height: 1200px;
-    }
-    .formhr{
-        margin-left: 150px;
-    }
-    .pic{
-        width: 360px;
-        height: 224px;
-        margin-top: 20px;
-        margin-left: 55px;
-    }
-    .register-box{
-        margin-left: 40px;
-        margin-top: -200px;
-    }
-    .submitbtn{
-        margin-top: 30px;
-        margin-left: 100px;
-    }
-}
+
 
 
 .Contact-area2{
@@ -162,19 +139,6 @@ input{
     margin-top: 850px;
 }
 
-@media (max-width: 560px) {
-    .Contact-area2{
-        width: 480px;
-        height: 200px;
-        margin-top: 150px;
-       
-    }
-    .addressmap{
-        width: 480px;
-        height: 200px;
-    }
-}
-   
    
    
     .contactbox{

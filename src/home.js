@@ -160,7 +160,7 @@ class Home extends Component {
                                         
                                 </div>
                 </div>
-                <div className="card  card1">
+                <div className="card  card1 ab">
                     <img className="s1" src={birthday} alt=""></img>
                         <div className="txt">
                             <h3 className="headerpart987">DIGITAL</h3>

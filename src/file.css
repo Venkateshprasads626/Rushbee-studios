@@ -341,78 +341,157 @@
     margin-top: -16px;
 }
 
-@media only screen and (max-width: 600px) {
+/* this is for tablet */
+
+@media screen and (max-width: 768px) {
     .client-area{
+        position: relative;
         width: 100%;
+        top: 750px;
         margin-left: 0px;
-        top: 900px;
+        bottom: 0px;
     }
     .clienthead{
-        margin-left: 0px;
+        margin-left: 350px;
     }
     .horizantalline{
-        margin-left: 0px;
+        margin-left: 370px;
     }
-    .overlay,.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6,.overlay7,.overlay8,.overlay9{
+    .overlay,.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6,.overlay7,.overlay8{
         display: none;
     }
+    .card7,.a1,.card8,.a2,.card9,.a3,.card10,.a4,.card11,.a5,.card12,.a6,.card13,.a7,.card14,.a8,.card15,.a9{
+            width: 150px;
+            height: 110px;
+            padding: 10px;
+    }
     .card7,.a1{
-        width: 100px;
-        height: 50px;
+        margin-left: initial;
     }
     .card8,.a2{
-        width: 100px;
-        height: 50px;
+        margin-left: 150px;
     }
     .card9,.a3{
-        width: 100px;
-        height: 50px;
+        margin-left: 65%;
+        margin-top: -2%;
     }
     .card10,.a4{
-        width: 100px;
-        height: 50px;
+        margin-left: initial;
+        top: 5%;
+        width: 170px;
     }
     .card11,.a5{
-        width: 100px;
-        height: 50px;
+        margin-left: 150px;
+        width: 170px;
     }
     .card12,.a6{
-        width: 100px;
-        height: 50px;
+        margin-left: 65%;
     }
     .card13,.a7{
-        width: 100px;
-        height: 50px;
+        margin-left: initial;
+        width: 170px;
     }
     .card14,.a8{
-        width: 100px;
-        height: 50px;
+        margin-left: 150px;
+        width: 170px;
     }
     .card15,.a9{
-        width: 100px;
-        height: 50px;
+        margin-left: 65%;
     }
-    .card8,.a2,
-    .card11,.a5,
-    .card14,.a8{
-        position: absolute;
-        margin-left: 120px;
-    }
-    .card7,.a1,
-    .card10,.a4,
-    .card13,.a7{
-        position: absolute;
-        margin-left: 10px;
-    }
-    .card9,.a3,
-    .card12,.a6,
-    .card15,.a9{
-        position: absolute;
-        margin-left: 210px;
-    }
+
+
 }
 
+/* This is for mobile */
 
+@media screen and (max-width: 425px) {
+    .client-area{
+        width: 100%;
+        height: 600px;
+        top: 500px;
+        margin-left: 0px;
+        bottom: 0px;
+    }
+    .clienthead{
+        margin-left: 170px;
+    }
+    .horizantalline{
+        margin-left: 190px;
+    }
+    .card7,.a1,.card8,.a2,.card9,.a3,.card10,.a4,.card11,.a5,.card12,.a6,.card13,.a7,.card14,.a8,.card15,.a9{
+        width: 110px;
+        height: 80px;
+        padding: 10px;
+    }
+.card7,.a1{
+    margin-left: initial;
+}
+.card8{
+    margin-left: 170px;
+    margin-top: 145px;
+}
+.a2{
+    margin: 0px;
+    margin-left: -10px;
+}
+.card9{
+    width: 100px;
+    margin-left: 74%;
+}
+.a3{
+    margin: 0px;
+    margin-left: -10px;
+    margin-top: -5px;
+}
+.card10,.a4{
+    margin-left: initial;
+    top: 0%;
+    width: 120px;
+}
+.card11{
+    margin-left: 180px;
+    width: 100px;
+    top: -50px;
+}
+.a5{
+    margin: 0px;
+    margin-top: -5px;
+    width: 110px;
+    margin-left: -15px;
+}
+.card12{
+    margin-left: 74%;
+    margin-top: 300px;
+
+}
+.a6{
+    margin: 0px;
+    margin-left: -5px;
+    margin-top: -10px;
+}
+.card13,.a7{
+    margin-left: initial;
+    width: 140px;
+    top: -70px;
+}
+.card14{
+    margin-left: 180px;
+    width: 110px;
+    top: -70px;
+   
+}
+.a8{
+    margin: 0px;
+}
+.card15{
+    margin-left: 73%;
+    top: -70px;
+
+}
+.a9{
+    margin: 0px;
+}
+}
 
 
 
@@ -428,16 +507,13 @@
     width: 100%;
     height: 464px;
     background: white;
-    margin-top: 1500px;
-    
+    margin-top: 1500px;  
 }
 .Group19{
     position: relative;
     left: -109px;
     top: 327px;
 }
-
-
 
 
 footer{
@@ -604,113 +680,77 @@ a:hover{
     font-weight: bold;
 }
 
-@media only screen and  (max-width: 600px) {
+/* this is for tablet */
+
+@media screen and (max-width: 768px) {
     .Contact-area{
         width: 100%;
-        height: 200px;
-
-        margin-top: 1800px;
+        height: 250px;
+        background: white;
+        margin-top: 110%;
     }
     .addressmap{
         width: 100%;
-        height: 200px;
-
+        height: 250px;
     }
-}
 
-@media only screen and (max-width: 600px) {
     footer{
+        margin-top: 0px;
         width: 100%;
-        height: 100%; 
-        bottom: 0;    
-        padding: 50px;   
+        height: 339px;
+        background-color: #7D7D7D;
     }
     .container-fluid{
-        width: 100%;
-        margin-left: 10px;
+        margin-left: 40px;
     }
-    .Group19{
-        left: -770px;
-        top: 430px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .first{
-        margin: 0px;
-        font-size: 15px;
-        
-    }
-    .vl1{
-        margin-left: 8px;
-        margin-top: -172px;
-    }
-    .details1{
-        margin-left: -216px;
-        font-size: 14px;
-    }
-    .details2{
-        margin-left: -196px;
-        font-size: 14px;
-    }
-    .h2{
-        margin: 0px;
-        text-align: start;
-        font-size: 10px;
+    .navbar{
+        margin-left: initial;
     }
     .second{
-        margin-top: -80px;
-        font-size: 15px;
-        margin-left: 350px;
-    }
-    .address{
-        font-size: 10px;
-        text-align: start;
-        margin-top: -3px;
-
-    }
-    .vl2{
-        margin-left: 348px;
-        margin-top: -175px;
-        
+        margin-left: -10%;
     }
     .icon1{
-        margin-top: -16px;
-        margin-left: 300px;
+        margin-left: -120%;
     }
     .icon2{
-        margin-top: -43px;
-        margin-left: 380px;
+        margin-left: -100%;
+    }
+    .icon3{
+        margin-left: 100%;
+    }
+    .icon4{
+        margin-left: -90%;
+    }
+    .vl2{
+        margin-left: 46%;
+    }
+    .btn2{
+        margin-left: -10%;
+    }
+    .Group19{
+        left: -82%;
+        top: 166%;
+    }
+    .new1{
+        margin-top: 40px;
+        background-color: #E6BA33;
+        transform: matrix(1, 0, 0, -1, 0, 0);
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .new1{
-        /* margin-top: 15px;
+/* This is for mobile */
+
+@media screen and (max-width: 425px) {
+    .Contact-area{
         width: 100%;
-        margin-left: 0px; */
-        display: none;
     }
-    .btn2{
-        width: 100px;
-        height: 50px;
-        margin-left: 350px;;
-    }
-    .btn2,h6{
-        font-size: 16px;
+    footer{
+        width: 100%;
     }
 }
-@media only screen and (max-width: 600px) {
-    .navbar{
-        display: none;
-    }
-    .icon3{
-        display: none;
+
+@media screen and (max-width: 768px) {
+    html,body{
+        overflow-x: hidden;
     }
 }
-@media only screen and (max-width: 600px) {
-    .address,h2{
-        font-size: 15px;
-    }
-}
-/* This is min width */
