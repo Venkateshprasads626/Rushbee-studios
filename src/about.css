@@ -91,6 +91,20 @@ margin-top: 40px;
     margin-left: 30px;
 }
 
+@media screen and (max-width: 768px) {
+    .card50{
+        width: 90%;
+        height: 400px;
+        margin-left: 40px;
+    }
+    .about-text{
+        font-size: 13px;
+        text-align: 200px;
+        line-height: 5px;
+    }
+}
+
+
 
 
 
