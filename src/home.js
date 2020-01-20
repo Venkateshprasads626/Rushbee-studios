@@ -66,7 +66,7 @@ class Home extends Component {
                                 <span className="dot"></span>
                             </div>
 
-                    
+                                
                                 <div className="card2">
                                         <div className="text">
                                             <h5>UI / UX</h5>
