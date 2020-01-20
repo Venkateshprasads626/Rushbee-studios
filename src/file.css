@@ -751,23 +751,96 @@ a:hover{
         transform: matrix(1, 0, 0, -1, 0, 0);
     }
 }
-
-/* This is for mobile */
-
-@media screen and (max-width: 425px) {
-    .Contact-area{
-        width: 100%;
-    }
-    footer{
-        width: 100%;
-    }
-}
-
 @media screen and (max-width: 768px) {
     html,body{
         overflow-x: hidden;
     }
 }
+/* this is for 425px phones */
+
+@media screen and (max-width: 425px) {
+
+    .Contact-area{
+        margin-top: 130%;
+    }
+    .container-fluid{
+        width: 100%;
+        margin-left: 40px;
+    }
+    .Group19{
+        left: -800px;
+
+    }
+    .first{
+        font-size: 15px;
+        margin-left: -35px;
+    }
+    .vl1{
+        margin-top: 13px;
+        margin-left: -25px;
+        position: absolute;
+    }
+
+    .vl2{
+        position: absolute;
+        margin-left: -25px;
+        margin-top:238px;
+    }
+    .details1{
+        margin-left: -245px;
+    }
+    .details2{
+        margin-left: -225px;
+    }
+    .second{
+        font-size: 15px;
+        margin-top: 140px;
+        margin-left: -35px;
+    }
+    h2{
+        font-size: 15px;
+        
+    }
+    .address{
+        font-size: 11px;
+        text-align: start;
+        margin-left: -30px;
+    }
+    .navbar,.icon3{
+        display: none;
+    }
+
+    .icon1{
+        margin-left: 10px;
+        font-size: 25px;
+        margin-left: -380px;
+        margin-top: -10px;
+    }
+    .icon2{
+        margin-left: -300px;
+        font-size: 25px;
+        margin-top: -38px;
+    }
+    .fa-instagram{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .btn2{
+        margin-top: -20px;
+        margin-left: 150px;
+    }
+    .icon3{
+        display: none;
+    }
+    .new1,.navbar{
+        display: none;
+    }
+}
+
+
+
+
+
 
 /* this is for phones */
 @media screen and (max-width: 375px) {

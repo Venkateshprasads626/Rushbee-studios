@@ -211,11 +211,11 @@ Solution'!</p>
                                 <h2 className="text-area-header">Testimonial from Quest</h2>
                                 <hr className="belowline"></hr>
                                 <p className="text-area-data">
-                                    Lorem ipsum dolor sit amet,Consectetur adipiscing elit.In nibh pretium, ipsum aliquet eget pretium<br/>
-                                    tellus tortor nibh. Porttitor amet euismod scelerisque dictum nullam. Feugiat ullamcroper molestie
+                                    Derek’s extremely patient, responsive to communications & helpful in providing<br/>
+                                    insight toward business goals. He made the overwhelming process of getting
                                 </p>
                                 <p className="text-area-data1">
-                                    ultricies amet amet.Urna amet ante semper odio suspendisse.Vitae sed a purus laoreet sit imperdiet.
+                                my business design out of my head painless.
                                 </p>
 
                                 
@@ -256,7 +256,7 @@ Solution'!</p>
                                 <p className="text-area-data1">
                                     ultricies amet amet.Urna amet ante semper odio suspendisse.Vitae sed a purus laoreet sit imperdiet.
                                 </p>
-
+                                
                                 
                             </div>
                         </div>
@@ -440,7 +440,7 @@ Solution'!</p>
                             <li><NavLink to="/about">About-us</NavLink></li>
                             <li><NavLink to="/portfolio">Portfolio</NavLink></li>
                             </ul>
-                         <a href=""><div className="icon3"><i className="fa fa-angle-up" aria-hidden="true"></i></div></a> 
+                         <div className="icon3"><i className="fa fa-angle-up" aria-hidden="true"></i></div>
                         </div>
 
 
