@@ -52,6 +52,7 @@ class Home extends Component {
         <div className="Service">
                 <h2 className="Third">Services</h2>
                 <hr className="new2"></hr>
+            <div className="servicecards">
                 <div className="card1">
                     <img className="s1" src={s1} alt=""></img>
                         <div className="txt">
@@ -70,12 +71,16 @@ class Home extends Component {
                                         <div className="text">
                                             <h5>UI / UX</h5>
                                             <h5>DESIGN</h5>
+                                            <div className="ui">
                                             <p className="t">Every engagement</p>
                                             <p className="tx">is unique. And our</p>
                                             <p className="tt">best UI design</p>
                                             <p className="ttx">company offer an</p>
-                                            <p className="ttx">equally 'Unique UX Solution'!</p>
-                                            
+                                            <p className="tttx">equally</p> 
+                                            <p className="tttx"> 'Unique UX 
+Solution'!</p>
+                                           
+                                            </div>
                                         </div>
                                 </div>
 
@@ -124,11 +129,12 @@ class Home extends Component {
                                 <div className="text">
                                     <h5>BRAND</h5>
                                     <h5>CREATION</h5>
+                                    <div className="brand">
                                     <p className="t">We just don't</p>
                                     <p className="tx">create Names,</p>
                                     <p className="tt">We create</p>
                                     <p className="ttx">Brands.</p>
-
+                                    </div>
                                 </div>
                                         
                                 </div>
@@ -153,8 +159,9 @@ class Home extends Component {
                                     <p className="t">Creating an </p>
                                     <p className="tx">eye-catching </p>
                                     <p className="tt">pacaging design that </p>
-                                    <p className="ttx">suits the product, stands</p>
-                                    <p className="tttx">out on crowed shelves.</p>
+                                    <p className="ttx">suits the product, </p>
+                                    <p className="tttx">stands out on </p>
+                                    <p className="tttx">crowed shelves.</p>
                                     
                                 </div>
                                         
@@ -186,6 +193,7 @@ class Home extends Component {
                                 </div>
                                         
                             </div>
+                </div>
                 </div>
         </div>
 

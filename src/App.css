@@ -345,7 +345,6 @@ h4{
  margin: 0 4px;
  left: 55px;
  top: -20px;
- 
 }
 
 
@@ -624,40 +623,164 @@ text-align: center;
 
 @media screen and (max-width: 375px) {
   .card1{
-    margin-left: 14px;
+    width: 130px;
+    height: 130px;
+    margin-left: 35px;
   }
+  .Third{
+    margin-left: 150px;
+  }
+  .new2{
+    margin-left: 155px;
+  }
+
   .ab{
-    margin-left: 100px;
+    margin-left: 130px;
   }
   .s5{
-    margin-left: -170px;
+    width: 45px;
+    margin-left: -150px;
+  }
+  .s4{
+    width: 40px;
+    margin-left: 5px;
   }
   .s3{
-    margin-left: -620px;
+    width: 50px;
+    margin-left: -600px;
   }
-  .s1{
-    margin-left: -85px;
+  /* .s1{
+  
+    margin-left: -80px;
     top: 130px;
+  } */
+  .s1{
+    margin-left: -65px;
+    width: 45px !important;
+    height: 45px !important;
   }
   .s2{
-    margin-left: -174px;
+    width: 50px;
+    margin-left: -160px;
   }
   .card2{
-      left: 0px;
+    width: 140px;
+    height: 140px; 
+    left: 24px;
+    top: 95px;
   }
   .card3{
-      left: 180px;
+    width: 140px;
+    height: 140px;
+    left: 198px;
+     top: 95px;
   }
   .card4{
-    left: 0px;
-    margin-top: 35px;
+    width: 140px;
+    height: 140px;
+    left: 24px;
+    margin-top: -44px;
   }
   .card5{
-    left: 180px;
-    margin-top: 35px;
+    width: 140px;
+    height: 140px;
+    left: 198px;
+    margin-top: -44px;
   }
   .card6{
-    left: 88px;
-    margin-top: 60px;
+    width: 140px;
+    height: 140px;
+    left: 125px;
+    margin-top: -84.5px;
   }
+
+  .card1
+  .headerpart987{
+    font-size: 13px;
+  }
+  .card1 p{
+    font-size: 13px;
+    line-height: 0px;
+    margin-left: 3px;
+  }
+  .card1
+  .txt{
+    margin-top: 65px;
+  }
+
+  .card1
+  .big{
+    font-size: 13px;
+    line-height: 0px;
+  }
+  .dot {
+    width: 4px;
+    height: 4px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 0 4px;
+    left: 44px;
+    top: -13px;
+   }
+
+
+  .text h5{
+    font-size: 12px;
+    line-height: 5px;
+  }
+
+  .text
+.t
+{
+  font-size: 11px;
+  font-weight: normal;
+}
+.text
+.tx{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+text-align: center;
+  margin-top: -12px;
+}
+.text
+.tt{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  text-align: center;
+  margin-top: -1px;
+}
+.text
+.ttx{
+  font-family: Poppins;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 0px;
+  font-weight: normal;
+}
+.text
+.tttx{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  text-align: center;
+  margin-top: -1px;
+}
+
+.ui{
+  margin-top: -4px;
+}
+.brand{
+  margin-top: 20px;
+}
+
+.servicecards{
+  margin-top: 50px;
+}
 }
