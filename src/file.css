@@ -503,6 +503,7 @@
     .horizantalline{
         margin-left: 145px;
     }
+   
 }
 
 
@@ -930,5 +931,14 @@ a:hover{
     }
     .Group19{
         display: none;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .details1{
+        margin-left: -200px;
+    }
+    .details2{
+        margin-left: -180px;
     }
 }

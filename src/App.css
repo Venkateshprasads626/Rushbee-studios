@@ -193,10 +193,11 @@ h4{
   }
   .col-md-4
   .vector{
-    width: 200px;
-    height: 150px;
+    width: 150px;
+    height: 130px;
     float: left;
-    left: 15%;
+    left: 22%;
+    top: -24px;
   }
   h3{
     font-size: 13px;
@@ -240,6 +241,7 @@ h4{
     left: 16%;
   }
 }
+
 
 
 
@@ -777,7 +779,7 @@ text-align: center;
 
 /* this is for phones */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 380px) {
 
   .Service{
     height: 800px;
