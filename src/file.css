@@ -411,12 +411,14 @@
         top: 500px;
         margin-left: 0px;
         bottom: 0px;
+        top: 400px;
     }
     .clienthead{
+        font-size: 20px;
         margin-left: 170px;
     }
     .horizantalline{
-        margin-left: 190px;
+        margin-left: 180px;
     }
     .card7,.a1,.card8,.a2,.card9,.a3,.card10,.a4,.card11,.a5,.card12,.a6,.card13,.a7,.card14,.a8,.card15,.a9{
         width: 110px;
@@ -427,7 +429,7 @@
     margin-left: initial;
 }
 .card8{
-    margin-left: 170px;
+    margin-left: 160px;
     margin-top: 145px;
 }
 .a2{
@@ -449,7 +451,7 @@
     width: 120px;
 }
 .card11{
-    margin-left: 180px;
+    margin-left: 160px;
     width: 100px;
     top: -50px;
 }
@@ -475,7 +477,7 @@
     top: -70px;
 }
 .card14{
-    margin-left: 180px;
+    margin-left: 160px;
     width: 110px;
     top: -70px;
    
@@ -760,15 +762,26 @@ a:hover{
 
 @media screen and (max-width: 425px) {
 
+
     .Contact-area{
         margin-top: 130%;
+        width: 100%;
+        height: 150px;
+        background: white;
+         
+    }
+    .addressmap{
+        height: 150px;
     }
     .container-fluid{
         width: 100%;
         margin-left: 40px;
     }
     .Group19{
-        left: -800px;
+        left: -753px;
+        top: 469px;
+        width: 100px;
+        height: 50px;
 
     }
     .first{
