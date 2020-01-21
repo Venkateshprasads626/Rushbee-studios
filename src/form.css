@@ -146,6 +146,30 @@ input{
     }
 
     /* this is for pc */
+    @media screen and (max-width: 1440px) {
+        .formbox{
+            margin-left: 70px;
+        }
+        .formhr{
+            margin-left: 550px;
+        }
+        .pic{
+            margin-left: 60px;
+        }
+        .vl5{
+            margin-left: 50%;
+        }
+        .register-box{
+            margin-left: 60%;
+        }
+        .submitbtn{
+            margin-left: -200px;
+        }
+        
+            .Contact-area2{
+                height: 350px;
+            }
+    }
     @media screen and (max-width: 1024px) {
         .formbox{
             position: absolute;
