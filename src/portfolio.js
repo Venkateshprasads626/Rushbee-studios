@@ -62,7 +62,7 @@ class portfolio extends Component {
                     <h1 className="second">FOLLOW US</h1>
                     <div className="icon1"><i className="fa fa-twitter" aria-hidden="true"></i></div>
                     <div className="icon2"><i className="fa fa-facebook-official" aria-hidden="true"></i></div>
-                    <div className="icon4"><i className="fa fa-instagram" aria-hidden="true"></i></div>
+                    
                     
                     <button className="btn btn-warning btn2"><a href="#"><h6>Get Connected</h6></a></button>
                   </div>
