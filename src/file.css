@@ -341,6 +341,123 @@
     margin-top: -16px;
 }
 
+/* This is for pc */
+
+@media screen and (max-width: 1024px) {
+    .client-area{
+        width: 800px;
+        height: 600px;
+        margin-left: 10%;
+    }
+    .clienthead{
+        margin-left: 370px; 
+    }
+    .horizantalline{
+        margin-left: 390px;
+    }
+    .card7{
+
+        width: 130px;
+        height: 80px;
+      
+        left: -40px;
+    }
+    .a1{
+        width: 130px;
+        height: 80px;
+    }
+    .card8{
+ 
+        left: -160px;
+        width: 130px;
+        height: 80px;
+    }
+    .a2{
+        width: 130px;
+        height: 80px;
+    }
+    .card9{
+    
+        left: -280px;
+        top: 175px;
+        width: 130px;
+        height: 90px;
+    }
+    .a3{
+        width: 130px;
+        height: 90px;
+    }
+    .card10{
+     
+        left: -50px;
+        top: 20px;
+        width: 130px;
+        height: 90px;
+    }
+    .a4{
+        width: 130px;
+        height: 90px;
+    }
+    .card11{
+
+        left: -160px;
+        width: 130px;
+        height: 90px;
+        top: -40px;
+    }
+    .a5{
+        width: 130px;
+        height: 800px;
+    }
+    .card12{
+  
+        left: -280px;
+        width: 130px;
+        height: 80px;
+        top: -30px;
+    }
+    .a6{
+        width: 130px;
+        height: 80px;
+    }
+    .card13{
+    
+        left: -50px;
+        top: -45px;
+        width: 130px;
+        height: 80px;
+    }
+    .a7{
+        width: 130px;
+        height: 80px;
+    }
+    .card14{
+     
+        left: -160px;
+        width: 130px;
+        height: 80px;
+        top: -45px;
+    }
+    .a8{
+        margin-top: 20px;
+        width: 130px;
+        height: 80px;
+    }
+    .card15{
+     
+        left: -280px;
+        width: 130px;
+        height: 90px;
+        top: -45px;
+    }
+    .a9{
+        width: 130px;
+        height: 90px;
+    }
+}
+
+
+
 /* this is for tablet */
 
 @media screen and (max-width: 768px) {
@@ -496,7 +613,7 @@
 }
 
 /* this is for phones */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 380px) {
     .clienthead{
         margin-left: 120px;
     }
@@ -504,9 +621,97 @@
         margin-left: 145px;
     }
    
+    .card7,.a1,.card8,.a2,.card9,.a3,.card10,.a4,.card11,.a5,.card12,.a6,.card13,.a7,.card14,.a8,.card15,.a9{
+        width: 110px;
+        height: 80px;
+        padding: 10px;
+    }
+    .card7,.a1{
+        margin-left: 15px;
+        
+    }
+    .card8{
+        margin-left: 300px;
+        margin-top: 145px;
+     
+    }
+    .a2{
+        margin: 1px;
+        margin-left: -5px;
+    }
+    .card9{
+        width: 100px;
+        margin-left: 550px;
+       
+        margin-top: -30px;
+    }
+    .a3{
+        margin: 0px;
+        margin-left: -10px;
+        margin-top: -5px;
+    }
+    .card10{
+        margin-top: 320px;
+        width: 120px;
+        height: 80px;
+       
+        margin-left: 35px;
+    }
+    .a4{
+
+    }
+    .card11{
+        margin-left: 300px;
+        width: 100px;
+        top: -30px;
+       
+    }
+    .a5{
+        margin: 0px;
+        margin-top: -5px;
+        width: 110px;
+        margin-left: -15px;
+    }
+    .card12{
+        margin-left: 550px;
+        margin-top: 350px;
+    
+
+    }
+    .a6{
+        margin: 0px;
+        margin-left: -5px;
+        margin-top: -10px;
+    }
+    .card13{
+        margin-left: 40px;
+        width: 140px;
+        top: -70px;
+        
+    }
+    .a7{
+
+    }
+    .card14{
+        margin-left: 300px;
+        width: 110px;
+        top: -70px;
+       
+    
+    }
+    .a8{
+        margin: 0px;
+    }
+    .card15{
+        margin-left: 550px;
+        top: -70px;
+        
+
+    }
+    .a9{
+        margin: 0px;
+    }
 }
-
-
 
 
 
@@ -691,6 +896,61 @@ a:hover{
     font-weight: bold;
 }
 
+/* This is for pc */
+@media screen and (max-width: 1024px) {
+    .Contact-area{
+        width: 100%;
+        height: 250px;
+    }
+    .addressmap{
+        width: 100%;
+
+    }
+    footer{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .container-fluid{
+        width: 100%;
+        margin-left: 10%;
+    }
+    .Group19{
+        left: -509px;
+        top: 410px;
+    }
+    .second{
+        margin-left: 100px;
+    }
+    .icon1{
+        margin-left: -200px;
+    }
+    .icon2{
+        margin-left: -120px;
+    }
+    .vl2{
+        margin-left: 620px;
+    }
+    .btn2{
+        margin-left: 100px;
+    }
+    .new1{
+        width: 800px;
+    }
+    .navbar{
+        margin-left: 50px;
+    }
+    .icon3{
+        margin-top: 0px;
+        margin-left: 150px;
+    }
+    .details1{
+        margin-left: -285px;
+    }
+    .details2{
+        margin-left: -268px;
+    }
+}
+
 /* this is for tablet */
 
 @media screen and (max-width: 768px) {
@@ -704,6 +964,7 @@ a:hover{
         width: 100%;
         height: 250px;
     }
+  
     .icon3{
         display: none;
     }
@@ -915,6 +1176,7 @@ a:hover{
         .fa-instagram{
             font-size: 20px;
             margin-top: 10px;
+            
         }
         .btn2{
             margin-top: -20px;
@@ -942,3 +1204,4 @@ a:hover{
         margin-left: -180px;
     }
 }
+

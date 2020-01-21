@@ -22,6 +22,14 @@
 
 
 
-
-/* This section is for image slider */
+/* this is for pc */
+@media screen and (max-width: 1024px) {
+    .portfolio{
+        margin-left: 25px;
+        height: 400px;
+    }
+    .Contact-area1{
+        height: 250px;
+    }
+}
 
