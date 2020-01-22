@@ -87,11 +87,19 @@ class About extends Component {
             <i className="fa fa-twitter-square" aria-hidden="true"></i>
           
             <div className="membertext">
-                <p className="mt1">Lorem ipsum dolor sit amet,<br /></p>
-                <p className="mt2">consectetur adipiscing elit.</p><br/>
-                <p className="mt3">Elementum posuere euismod</p>  <br/>
-                <p className="mt4">faucibus sed lacus. At amet sed orci</p>  <br/>
-                <p className="mt5"> sit accumsan lorem.</p>
+              <div className="membertext2">
+                <p className="mt11">Seshan is a UI/UX Designer. He just not only <br /></p>
+                <p className="mt22">designs, but also understands the  Client needs,</p><br/>
+                <p className="mt33"> End-User needs and designs them according to it.</p>  <br/>
+                <p className="mt44"> He takes care of Social Media Campaigns and </p>  <br/>
+                <p className="mt55"> all the Design related jobs.</p>
+                <p className="mt66">He spends most of his time learning new things </p><br/>
+                <p className="mt77"> to keep himself up-to-date with the Trend.</p>  <br/>
+                <p className="mt88"> He plans most of his things before he starts </p>  <br/>
+                <p className="mt99">to do it and he is strict with his agenda.</p>
+                <p className="mt100">During his free hours in a day he spends </p>
+                <p className="mt111">his time to be fit.</p>
+                </div>
             </div>
         </div>
         <div className="teammember3">
@@ -103,11 +111,14 @@ class About extends Component {
             <i className="fa fa-twitter-square" aria-hidden="true"></i>
            
             <div className="membertext">
-                <p className="mt1">Lorem ipsum dolor sit amet,<br /></p>
-                <p className="mt2">consectetur adipiscing elit.</p><br/>
-                <p className="mt3">Elementum posuere euismod</p>  <br/>
-                <p className="mt4">faucibus sed lacus. At amet sed orci</p>  <br/>
-                <p className="mt5"> sit accumsan lorem.</p> 
+                <div className="membertext3">
+                <p className="mtt1">Venkatesh is the frontend developer, <br /></p>
+                <p className="mtt2"> he's a hardworker, go-get'er, quick learner, </p><br/>
+                <p className="mtt3">tries to keep him occupied with new technology,</p> <br/>
+                <p className="mtt4">and implements them in the up-coming projects, </p>
+                <p className="mtt5">always thinks a way ahead! And his striving </p>  <br/>
+                <p className="mtt6">aim is to become a full stack developer.</p>
+                </div>
     
             </div>
         </div>
@@ -119,6 +130,7 @@ class About extends Component {
           <img src={group51} className="group51" alt=""></img>
           <img src={group52} className="group52" alt=""></img>
           
+
 
       </div>
       <div className="avatars">
@@ -201,5 +213,9 @@ export default About;
 
 
 
+
+
+
+ 
 
 

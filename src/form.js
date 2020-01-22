@@ -38,7 +38,7 @@ class form extends Component {
                                     <option value="Event Design">Event Design</option>
                                 </select>
                                 <i className="fa fa-chevron-down" aria-hidden="true"></i>
-                                <button type="submit" value="submit" className="submitbtn">Submit</button>
+                                <button type="submit" value="submit" className="submitbtn" onlick="submit(this.value)">Submit</button>
                             </form>
                         </div>
               

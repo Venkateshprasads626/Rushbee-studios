@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import 'bootstrap/dist/css/bootstrap.css';
 import './portfolio.css'
 import Group19 from './images/Group19.png'
 import addressmap from './images/addressmap.png'
@@ -17,12 +18,46 @@ import Group65 from './images/Group65.png'
 
  
 class portfolio extends Component {
+
   render() {
     return (
       <div className="portfoliopage">
       <div className="portfolio">
-  
-
+          <div className="slides">
+            <input type="radio" name="p" id="c1" checked />  
+            <input type="radio" name="p" id="c2" />  
+            <input type="radio" name="p" id="c3" />  
+            <input type="radio" name="p" id="c4" />  
+            <input type="radio" name="p" id="c5" />  
+            <input type="radio" name="p" id="c6" /> 
+            <div className="slide pc1">
+                <img src={Group60} />
+            </div>   
+            <div className="slide pc1">
+                <img src={Group61} />
+            </div>   
+            <div className="slide pc1">
+                <img src={Group62} />
+            </div>   
+            <div className="slide pc1">
+                <img src={Group63} />
+            </div>       
+            <div className="slide pc1">
+                <img src={Group64} />
+            </div>   
+            <div className="slide pc1">
+                <img src={Group65} />
+            </div>   
+          </div>
+          <div className="change">
+            <label className="tool" for="c1"></label>
+            <label className="tool" for="c2 "></label>
+            <label className="tool" for="c3"></label>
+            <label className="tool" for="c4"></label>
+            <label className="tool" for="c5"></label>
+            <label className="tool" for="c6"></label>
+          </div>
+       
       </div>
 
       

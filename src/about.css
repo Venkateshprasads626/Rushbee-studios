@@ -257,15 +257,84 @@ margin-top: 40px;
 /* this is for mobile 380px */
 @media screen and (max-width: 380px) {
     .card50{
-        width: 90%;
+        width: 97%;
         height: 230px;
-        margin-left: 17px;
+        margin-left: 5.6px;
+        
     }
     .about-text{
         width: 500px;
         font-size: 9.5px;
         line-height: 0px;
-        margin-left: 30px;
+        margin-left: 36px;
+    }
+    .card50
+    .abouthead{
+        font-size: 18px;
+    }
+    .card50
+    .aboutunder{
+        position: absolute;
+        margin-left: -215px;
+        width: 70px;
+    }
+    .ab1{
+        margin-left: -10px;
+    }
+    .ab2{
+        margin-top: -5px;
+        margin-left: -26px;
+    }
+    .ab3{
+        margin-top: -5px;
+        margin-left: -20px;
+    }
+    .ab4{
+        margin-top: -5px;
+        margin-left: 20px;
+    }
+    .ab5{
+        margin-top: -5px;
+        margin-left: -24px;
+    }
+    .ab6{
+        margin-top: -5px;
+        margin-left: 50px;
+    }
+    .ab7{
+        width: 450px;
+    margin-left: -32px;
+    margin-top: 20px;
+    }
+    .ab8{
+        margin-top: -5px;
+        margin-left: -34px;
+    }
+    .ab9{
+        margin-top: -5px;
+        margin-left: -27px;
+    }
+    .ab10{
+        margin-top: -5px;
+        margin-left: -20px;
+    }
+    .ab11{
+        margin-top: -5px;
+        margin-left: 10px;
+    }
+      
+    .Group4{
+        margin-top: -19px;
+        float: right;
+        margin-right: 10px;
+        width: 30px;
+        height: 50px;
+    }
+    .Group5{
+        margin-top: -69px;
+        width: 30px;
+        height: 50px;
+        margin-left: 10px;
     }
 }
 
@@ -423,11 +492,67 @@ margin-top: 40px;
 }
 .mt3{
     margin-left:5px;
-    
-    margin-top: -5px;
 }
+    .mt2{
+        margin-left: -12px;
+        margin-top: 0px;
+    }
+    .mt3{
+        margin-top: 10px;
+        margin-left: 5px;
+        
+        margin-top: -10px;
+    }
+    .mt4{
+        margin-left: 0px;
+        margin-top: -5px;
+    }
+    .mt5{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .mt6{ 
+    }
+    .mt2{
+        margin-left: -12px;
+        margin-top: 0px;
+    }
+    .mt3{
+        margin-top: 10px;
+        margin-left: 5px;
+        
+        margin-top: -10px;
+    }
+    .mt4{
+        margin-left: 0px;
+        margin-top: -5px;
+    }
+    .mt5{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .mt6{
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .mt7{
+        margin-left: 5px;
+        margin-top: -3px;
+    }
+    .mt8{
+        margin-left: -10px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .mt7{
+        margin-left: 5px;
+        margin-top: -3px;
+    }
+    .mt8{
+        margin-left: -10px;
+    }
 .mt4{
-    margin-left: 0px;
+     margin-left: 0px;
     margin-top: -5px;
 }
 .mt5{
@@ -449,6 +574,65 @@ margin-top: 40px;
 .mt9{
     margin-top: -3px;
     margin-left: 20px;
+}
+.membertext2
+.m11{
+
+}
+.membertext2
+.m22{
+    margin-left: 10px;
+}
+.m33{
+
+}
+.m44{
+
+}
+.m55{
+
+}
+.m66{
+
+}
+.m77{
+
+}
+.m88{
+
+}
+.m99{
+    
+}
+.m100{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.membertext2{
+    width: 500px;
+}
+.membertext3{
+    margin-top: 50px;
+    width: 800px;
 }
 
 /* this is for pc */
@@ -562,7 +746,209 @@ margin-top: 40px;
     }
 }
 
-
+@media screen and (max-width: 380px) {
+        .ourteam{
+            width: 100%;
+            height: 1100px;
+            margin-left: 0px;
+        }
+        .teammember1{
+            width: 97%;
+            height: 200px;
+            margin-left: 6px;
+        }
+        .teammember2{
+            width: 97%;
+            height: 200px;
+            margin-left: 6px;
+            top:  -200px;
+        }
+        .teammember3{
+            width: 97%;
+            height: 200px;
+            top: -400px;
+            margin-left: 6px;
+        }
+        .teamhead{
+            margin-left: 130px;  
+            font-size: 20px;
+        }
+        
+        .teamhr{
+            margin-left: 145px;
+            top: -6px;
+            
+        }
+        .fa-instagram{
+            font-size: 20px;
+            color: #000000;
+            margin-left: 30px;
+            margin-top: 5px;
+        }
+        .fa-twitter-square{
+            font-size: 20px;
+            color: #000000;
+            margin-left: 20px;
+        }
+        .fa-facebook-square{
+            font-size: 20px;
+            color: #000000;
+            margin-left: 30px;
+        }
+        
+       .Group37,.Group38,.Group39{
+            width: 15%;
+            margin-left: 30px;
+       }
+       .vl3{
+        height: 100px;
+        width: 0px;
+        border: 2px solid black;
+        margin-left: 130px;
+        margin-top: -45px;
+       }
+       .vl4{
+            height: 100px;
+            width: 0px;
+            border: 2px solid black;
+            margin-left: 130px;
+            margin-top: -45px;
+       }
+    
+        .membertext{
+            font-size: 10px;
+            margin-left: 155px;
+            margin-top: -140px;
+            line-height: 1px;
+            width: 500px;
+        }
+        
+        .mt2{
+            margin-left: -5px;
+            margin-top: -4px;
+        }
+        .mt3{
+            margin-top: -4px;
+            margin-left: 1px;
+            
+        }
+        .mt4{
+            margin-left: 0px;
+            margin-top: -5px;
+        }
+        .mt5{
+            margin-top: 20px;
+            margin-left: 0px;
+        }
+        .mt6{
+            margin-top: 6px;
+            margin-left: 15px;
+        }
+        .mt7{
+            margin-left: 5px;
+            margin-top: -3px;
+        }
+        .mt8{
+            margin-left: -10px;
+            margin-top: -4px;
+        }
+        .mt9{
+            margin-top: -3px;
+            margin-left: 20px;
+        }
+        .membername1{
+            font-size: 10px;
+            margin-left: 30px;
+            margin-top: -40px;
+        }
+        .membername12{
+            font-size: 8px;
+            margin-left: -240px;
+            margin-top: -1px;
+        }
+        .membername2{
+            font-size: 10px;
+            margin-left: 40px;
+            margin-top: -35px;
+        }
+        .membername21{
+            margin-left: -240px;
+            font-size: 8px;
+            margin-top: -1px;
+        }
+        .membername3{
+            font-size: 10px;
+            margin-left: 15px;
+            margin-top: -35px;
+        }
+        .membername31{
+            font-size: 8px;
+            margin-left: -240px;
+            margin-top: -1px;
+        }
+       
+        .mt22{
+            margin-top: -3px;
+            margin-left: -5px;
+        }
+        .mt33{
+            margin-left: -12px;
+            margin-top: -3px;
+        }
+        .mt44{
+            margin-top: -3px;
+            margin-left: -3px;
+        }
+        .mt55{
+            margin-top: -3px;
+            margin-left: 40px;
+        }
+        .mt66{
+            top: 10px;
+            margin-left: -5px;
+        }
+        .mt77{
+            margin-top: -5px;
+            margin-left: 10px;
+        }
+        .mt88{
+            margin-top: -5px;
+            margin-left: 3px;
+        }
+        .mt99{
+            margin-top: -5px;
+            margin-left: 20px;
+        }
+        .mt100{
+            margin-top: -5px;
+            margin-left: 15px;
+        }
+        .mt111{
+            margin-left: 70px;
+            margin-top: -5px;
+        }
+        .membertext3{
+            margin-top: 20px;
+        }
+        .mtt1{
+            margin-left: 10px;
+        }
+        .mtt2{
+            
+        }
+        .mtt3{
+            margin-left: -10px;
+        }
+        .mtt4{
+            margin-left: -10px;
+        }
+        .mtt5{
+            
+        }
+        .mtt6{
+            margin-left: 10px;
+        }
+}
 
 
 
@@ -599,6 +985,24 @@ margin-top: 40px;
     .testimony{
         width: 80%;
         margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .testimony{
+        width: 100%;
+        height: 400px;
+        margin-left: 0px;
+        top: -150px;
+    }
+    .group51{
+        margin-top: 0px;
+        height: 50px;
+    }
+    .group52{
+        height: 50px;
+        margin-top: 300px;
+        
     }
 }
 
@@ -666,5 +1070,42 @@ margin-top: 40px;
     .avatar4{
         margin-left: 100px;
         margin-top: 340px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .avatars{
+        background: red;
+        width: 100%;
+        height: 200px;
+        margin-left: 0px;
+        margin-top: 2000px;
+    }
+    .avatar5{
+        position: absolute;
+        margin-left: -50px;
+        width: 50px;
+        margin-top: -190px;
+    }
+    .avatar1{
+        position: absolute;
+        margin-top: 95px;
+        margin-left: 30px;
+        width: 50px;
+    }
+    .avatar2{
+        margin-top: 123px;
+        margin-left: 100px;
+        width: 50px;
+    }
+    .avatar3{
+        margin-top: 119px;
+        margin-left: 60px;
+        width: 50px;
+    }
+    .avatar4{
+        margin-left: 310px;
+        margin-top: -80px;
+        width: 20px;
     }
 }

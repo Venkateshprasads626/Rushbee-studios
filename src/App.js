@@ -16,7 +16,20 @@ import form from "./form";
 class App extends Component {
 
   
+  
   render() {
+
+window.onload= function (){
+  const hamburger = document.querySelector(".hamburger");
+  const navLinks = document.querySelector(".nav-links");
+  const links = document.querySelector(".nav-links li");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("open");
+    
+  });
+  }
+   
     return (
       <HashRouter>
         <div>
@@ -24,10 +37,15 @@ class App extends Component {
                   <img className="logo" src={logo} alt=""></img>
              </div>
              <nav>
-                <input type="checkbox" id="check"></input>
+                {/* <input type="checkbox" id="check"></input>
                   <label for="check" className="checkbtn">
                       <i className="fa fa-bars" aria-hidden="true"></i>
-                  </label>
+                  </label> */}
+                  <div className="hamburger">
+                    <div className="line"></div>
+                    <div className="line"></div>
+                    <div className="line"></div>
+                  </div>
                   
                  <ul className="nav-links">
                      <li><NavLink to="/">Home</NavLink></li>
