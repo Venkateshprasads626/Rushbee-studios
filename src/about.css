@@ -95,6 +95,7 @@ margin-top: 40px;
     .card50{
         margin-left: 8.5%;
     }
+
 }
 @media screen and (max-width: 1024px) {
     .card50{
@@ -446,7 +447,7 @@ margin-top: 40px;
     margin-top: -20px;
 }
 .membername12{
-    font-size: 10px;
+    font-size: 12px;
     margin-left: -488px;
     letter-spacing: 0.02em;
 }
@@ -460,7 +461,7 @@ margin-top: 40px;
     margin-top: -20px;
 }
 .membername21{
-    font-size: 10px;
+    font-size: 12px;
     margin-left: -488px;
     letter-spacing: 0.02em;
 }
@@ -473,7 +474,7 @@ margin-top: 40px;
     margin-top: -20px;
 }
 .membername31{
-    font-size: 10px;
+    font-size: 12px;
     margin-left: -488px;
     letter-spacing: 0.02em;
 }

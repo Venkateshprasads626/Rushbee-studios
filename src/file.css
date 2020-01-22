@@ -324,8 +324,8 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 30px;
     text-align: center;
     color: #000000;
     margin-top: 10px;
@@ -917,6 +917,19 @@ a:hover{
     .Group19{
         left: -308px;
         top: 370px;
+    }
+    .vl1{
+        margin-top: -165px;
+        margin-left: -1px;
+    }
+    .vl2{
+        margin-top: -165px;
+    }
+    .details1{
+        margin-left: -375px;
+    }
+    .details2{
+        margin-left: -355px;
     }
 }
 

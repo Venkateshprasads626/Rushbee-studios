@@ -65,15 +65,15 @@ class About extends Component {
             <i className="fa fa-twitter-square" aria-hidden="true"></i>
            
             <div className="membertext">
-                <p className="mt1">Rushi brings 3 Years experience in design &<br /></p>
+                <p className="mt1">Rushi brings 3 Years experience in Design &<br /></p>
                 <p className="mt2">Developement,now managing entrepreneurial.</p><br/>
-                <p className="mt3">venture form past one year Over this period,</p>  <br/>
+                <p className="mt3">venture from past one year over this period,</p>  <br/>
                 <p className="mt4">he has led branding and web design projects.</p>  <br/>
 
                 <p className="mt5">He spends 80% of his time answering emails<br /></p>
                 <p className="mt6">(if you don't hear back from us, you know).</p><br/>
                 <p className="mt7">who to blame!). He compulsively fraws out</p>  <br/>
-                <p className="mt8">ideas to make a pont, not sparing any scrap of </p>  <br/>
+                <p className="mt8">ideas to make a point, not sparing any scrap of </p>  <br/>
                 <p className="mt9">paper lying around, even cheque books!</p>
     
             </div>
@@ -82,7 +82,7 @@ class About extends Component {
             <img src={Group38} className="Group38" alt=".."></img>
             <div className="vl4"></div>
             <h4 className="membername2">Seshan</h4>
-            <h5 className="membername21">Managing Director</h5>
+            <h5 className="membername21">UI/UX Designer</h5>
             <i className="fa fa-facebook-square" aria-hidden="true"></i>
             <i className="fa fa-twitter-square" aria-hidden="true"></i>
           

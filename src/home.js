@@ -19,6 +19,7 @@ import logo9 from './images/logo9.png'
 import Group19 from './images/Group19.png'
 import addressmap from './images/addressmap.png'
 import { NavLink } from  "react-router-dom"
+import form from './form';
 
 
 
@@ -182,8 +183,8 @@ Solution'!</p>
 
                             <div className="card6">
                                 <div className="text">
-                                    <h5>EVENT</h5>
-                                    <h5>DESIGN</h5>
+                                    <h5>DIGITAL</h5>
+                                    <h5>MARKETING</h5>
                                     <p className="t">We increase your</p>
                                     <p className="tx">Organization's growth,</p>
                                     <p className="tt">by analysing your</p>
@@ -211,7 +212,7 @@ Solution'!</p>
                                 <h2 className="text-area-header">Testimonial from Quest</h2>
                                 <hr className="belowline"></hr>
                                 <p className="text-area-data">
-                                    Derek’s extremely patient, responsive to communications & helpful in providing<br/>
+                                    Responsive to communications & helpful in providing<br/>
                                     insight toward business goals. He made the overwhelming process of getting
                                 </p>
                                 <p className="text-area-data1">
@@ -230,12 +231,10 @@ Solution'!</p>
                                 <h2 className="text-area-header">Testimonial from Atom</h2>
                                 <hr className="belowline"></hr>
                                 <p className="text-area-data">
-                                    Lorem ipsum dolor sit amet,Consectetur adipiscing elit.In nibh pretium, ipsum aliquet eget pretium<br/>
-                                    tellus tortor nibh. Porttitor amet euismod scelerisque dictum nullam. Feugiat ullamcroper molestie
+                                    Rushbee Studios is an artistic and gifted organization  who can assist any business in developing an identity.<br/>
+                                    I would highly recommend Rushbee Studios for this  work, responsiveness, value, and ability to implement client’s goals.
                                 </p>
-                                <p className="text-area-data1">
-                                    ultricies amet amet.Urna amet ante semper odio suspendisse.Vitae sed a purus laoreet sit imperdiet.
-                                </p>
+                              
 
                                 
                             </div>
@@ -250,11 +249,11 @@ Solution'!</p>
                                 <h2 className="text-area-header">Testimonial from Deep Grade</h2>
                                 <hr className="belowline"></hr>
                                 <p className="text-area-data">
-                                    Lorem ipsum dolor sit amet,Consectetur adipiscing elit.In nibh pretium, ipsum aliquet eget pretium<br/>
-                                    tellus tortor nibh. Porttitor amet euismod scelerisque dictum nullam. Feugiat ullamcroper molestie
+                                Rushbee Studios was wonderful to work with. We asked for many different variations during the design process of our logo <br/>
+                                and was very patient in working with us until we found the one that worked best for us. They were very professional, easy
                                 </p>
                                 <p className="text-area-data1">
-                                    ultricies amet amet.Urna amet ante semper odio suspendisse.Vitae sed a purus laoreet sit imperdiet.
+                                to work with and very responsive. I would highly recommend them to anyone looking for design services.
                                 </p>
                                 
                                 
@@ -269,11 +268,11 @@ Solution'!</p>
                                 <h2 className="text-area-header">Testimonial from SmartTail</h2>
                                 <hr className="belowline"></hr>
                                 <p className="text-area-data">
-                                    Lorem ipsum dolor sit amet,Consectetur adipiscing elit.In nibh pretium, ipsum aliquet eget pretium<br/>
-                                    tellus tortor nibh. Porttitor amet euismod scelerisque dictum nullam. Feugiat ullamcroper molestie
+                                I had a fantastic experience working with Rushbee Studios throughout the process of designing my business website. I was <br/>
+                                so taken aback at how many concepts they came up with, how many revisions they made, and how patient they were with
                                 </p>
                                 <p className="text-area-data1">
-                                    ultricies amet amet.Urna amet ante semper odio suspendisse.Vitae sed a purus laoreet sit imperdiet.
+                                me throughout it all.
                                 </p>
 
                                 
@@ -288,11 +287,11 @@ Solution'!</p>
                                 <h2 className="text-area-header">Testimonial from Aryan Associate</h2>
                                 <hr className="belowline"></hr>
                                 <p className="text-area-data">
-                                    Lorem ipsum dolor sit amet,Consectetur adipiscing elit.In nibh pretium, ipsum aliquet eget pretium<br/>
-                                    tellus tortor nibh. Porttitor amet euismod scelerisque dictum nullam. Feugiat ullamcroper molestie
+                                We were impressed by how quickly Rushbee Studios understood our brief, and responded to feedback so promptly and <br/>
+                                accurately. We also really appreciated being presented with options at every step of the way, which gave us an opportunity
                                 </p>
                                 <p className="text-area-data1">
-                                    ultricies amet amet.Urna amet ante semper odio suspendisse.Vitae sed a purus laoreet sit imperdiet.
+                                to work collaboratively and generate some new ideas that we hadn’t considered ourselves.
                                 </p>
 
                                 
@@ -308,11 +307,11 @@ Solution'!</p>
                                 <h2 className="text-area-header">Testimonial from ESTS</h2>
                                 <hr className="belowline"></hr>
                                 <p className="text-area-data">
-                                    Lorem ipsum dolor sit amet,Consectetur adipiscing elit.In nibh pretium, ipsum aliquet eget pretium<br/>
-                                    tellus tortor nibh. Porttitor amet euismod scelerisque dictum nullam. Feugiat ullamcroper molestie
+                                Where talent meets experience. Very professional service!  We created the logo for our travelling company from scratch <br/>
+                                and finished with the full responsive and mobile friendly website design. We felt that our wishes were heard and excelled
                                 </p>
                                 <p className="text-area-data1">
-                                    ultricies amet amet.Urna amet ante semper odio suspendisse.Vitae sed a purus laoreet sit imperdiet.
+                                with on point insights. Would recommend! Read more http://www.graphicdesigner2b.co.uk/testimonials/
                                 </p>
 
                                 
@@ -328,11 +327,12 @@ Solution'!</p>
                                 <h2 className="text-area-header">Testimonial from griphapraphtham</h2>
                                 <hr className="belowline"></hr>
                                 <p className="text-area-data">
-                                    Lorem ipsum dolor sit amet,Consectetur adipiscing elit.In nibh pretium, ipsum aliquet eget pretium<br/>
-                                    tellus tortor nibh. Porttitor amet euismod scelerisque dictum nullam. Feugiat ullamcroper molestie
+                                Working with Rushbee Studios and there team is effortless - a quickly grasp on concepts and delivery of exceptional ideas <br/>
+                                with very little revision required - and all within the committed deadlines. I can't recommend enough due the speed, the 
                                 </p>
                                 <p className="text-area-data1">
-                                    ultricies amet amet.Urna amet ante semper odio suspendisse.Vitae sed a purus laoreet sit imperdiet.
+                                quality, the attention to detail and the effectiveness of the finished product in addition to post production support. Big 
+                                Thanks! We'll be in touch soon.
                                 </p>
 
                                 
@@ -347,11 +347,11 @@ Solution'!</p>
                                 <h2 className="text-area-header">Testimonial from nefa</h2>
                                 <hr className="belowline"></hr>
                                 <p className="text-area-data">
-                                    Lorem ipsum dolor sit amet,Consectetur adipiscing elit.In nibh pretium, ipsum aliquet eget pretium<br/>
-                                    tellus tortor nibh. Porttitor amet euismod scelerisque dictum nullam. Feugiat ullamcroper molestie
+                                    Really listens to the client's needs and delivers a high quality results. Very satisfied with the speed, unique approach to <br/>
+                                    accurately. We also really appreciated being presented with options at every step of the way, which gave us an opportunity 
                                 </p>
                                 <p className="text-area-data1">
-                                    ultricies amet amet.Urna amet ante semper odio suspendisse.Vitae sed a purus laoreet sit imperdiet.
+                                business and friendly yet professional communication. Highly recommended!
                                 </p>
 
                                 
@@ -367,11 +367,11 @@ Solution'!</p>
                                 <h2 className="text-area-header">Testimonial from Ataura</h2>
                                 <hr className="belowline"></hr>
                                 <p className="text-area-data">
-                                    Lorem ipsum dolor sit amet,Consectetur adipiscing elit.In nibh pretium, ipsum aliquet eget pretium<br/>
-                                    tellus tortor nibh. Porttitor amet euismod scelerisque dictum nullam. Feugiat ullamcroper molestie
+                                After many years of seeking the best quality of design and fulfilling my craziest ideas I finally found Rushbee Studios.They <br/>
+                                were not only highly professional, but they understand me from just 1 word what I want to achieve. It is very rare quality in 
                                 </p>
                                 <p className="text-area-data1">
-                                    ultricies amet amet.Urna amet ante semper odio suspendisse.Vitae sed a purus laoreet sit imperdiet.
+                                this world. I highly recommend the design service by graphicdesigner2b. I wish huge success!
                                 </p>
 
                                 
@@ -423,11 +423,11 @@ Solution'!</p>
                           <div className="col-md-6 mb-md-0 mb-3">
                             <h1 className="second">FOLLOW US</h1>
                             <div className="icon1"><i className="fa fa-twitter" aria-hidden="true"></i></div>
-                            <div className="icon2"><i className="fa fa-facebook-official" aria-hidden="true"></i></div>
+                            <a href="https://www.facebook.com/rush-bee-studios-106994060665768/" target="_blank"><div className="icon2"><i className="fa fa-facebook-official" aria-hidden="true"></i></div></a>
                             {/* <div className="icon4"><i className="fa fa-instagram" aria-hidden="true"></i></div> */}
 
                             
-                            <button className="btn btn-warning btn2"><a href="#"><h6>Get Connected</h6></a></button>
+                           <button className="btn btn-warning btn2"><a href="#"><h6>Get Connected</h6></a></button>
                           </div>
                           {/* This is verticle line in left side of the contact */}
                           <div className="vl1"></div>

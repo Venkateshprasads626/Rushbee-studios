@@ -23,7 +23,7 @@ class portfolio extends Component {
     return (
       <div className="portfoliopage">
       <div className="portfolio">
-          <div className="slides">
+          {/* <div className="slides">
             <input type="radio" name="p" id="c1" checked />  
             <input type="radio" name="p" id="c2" />  
             <input type="radio" name="p" id="c3" />  
@@ -56,7 +56,7 @@ class portfolio extends Component {
             <label className="tool" for="c4"></label>
             <label className="tool" for="c5"></label>
             <label className="tool" for="c6"></label>
-          </div>
+          </div> */}
        
       </div>
 
