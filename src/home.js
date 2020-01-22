@@ -209,8 +209,9 @@ Solution'!</p>
                         <img className="a1" src={logo1} alt=""></img>
                         <div className="card overlay">
                             <div className="text-area">
-                                <h2 className="text-area-header">Testimonial from Quest</h2>
-                                <hr className="belowline"></hr>
+                                <h2 className="text-area-header1">Testimonial from Quest</h2>
+                                <hr className="belowline1"></hr>
+                                <div className="overlaytext1">
                                 <p className="text-area-data">
                                     Responsive to communications & helpful in providing<br/>
                                     insight toward business goals. He made the overwhelming process of getting
@@ -218,7 +219,7 @@ Solution'!</p>
                                 <p className="text-area-data1">
                                 my business design out of my head painless.
                                 </p>
-
+                                </div>
                                 
                             </div>
                         </div>
@@ -228,13 +229,15 @@ Solution'!</p>
                         <img className="a2" src={logo2} alt=""></img>
                         <div className="card overlay1">
                             <div className="text-area">
-                                <h2 className="text-area-header">Testimonial from Atom</h2>
-                                <hr className="belowline"></hr>
+                                <h2 className="text-area-header2">Testimonial from Atom</h2>
+                                <hr className="belowline2"></hr>
                                 <p className="text-area-data">
-                                    Rushbee Studios is an artistic and gifted organization  who can assist any business in developing an identity.<br/>
-                                    I would highly recommend Rushbee Studios for this  work, responsiveness, value, and ability to implement client’s goals.
+                                    Rushbee Studios is an artistic and gifted organization  who can assist any business <br/>
+                                    in developing an identity. I would highly recommend Rushbee Studios for this  work,
                                 </p>
-                              
+                                <p className="text-area-data1">
+                                responsiveness, value, and ability to implement client’s goals.
+                                </p>
 
                                 
                             </div>
@@ -246,11 +249,12 @@ Solution'!</p>
                         <img className="a3" src={logo3} alt=""></img>
                         <div className="card overlay2">
                             <div className="text-area">
-                                <h2 className="text-area-header">Testimonial from Deep Grade</h2>
-                                <hr className="belowline"></hr>
+                                <h2 className="text-area-header3">Testimonial from Deep Grade</h2>
+                                <hr className="belowline3"></hr>
                                 <p className="text-area-data">
-                                Rushbee Studios was wonderful to work with. We asked for many different variations during the design process of our logo <br/>
-                                and was very patient in working with us until we found the one that worked best for us. They were very professional, easy
+                                Rushbee Studios was wonderful to work with. We asked for many different variations<br/>
+                                during the design process of our logo and was very patient in working with us until<br/>
+                                we found the one that worked best for us. They were very professional, easy
                                 </p>
                                 <p className="text-area-data1">
                                 to work with and very responsive. I would highly recommend them to anyone looking for design services.
@@ -265,11 +269,12 @@ Solution'!</p>
                         <img className="a4" src={logo4} alt=""></img>
                         <div className="card overlay3">
                             <div className="text-area">
-                                <h2 className="text-area-header">Testimonial from SmartTail</h2>
-                                <hr className="belowline"></hr>
+                                <h2 className="text-area-header4">Testimonial from SmartTail</h2>
+                                <hr className="belowline4"></hr>
                                 <p className="text-area-data">
-                                I had a fantastic experience working with Rushbee Studios throughout the process of designing my business website. I was <br/>
-                                so taken aback at how many concepts they came up with, how many revisions they made, and how patient they were with
+                                I had a fantastic experience working with Rushbee Studios throughout the <br/>
+                                process of designing my business website. I was so taken aback at how many<br/>
+                                concepts they came up with, how many revisions they made, and how patient they were with
                                 </p>
                                 <p className="text-area-data1">
                                 me throughout it all.
@@ -284,11 +289,12 @@ Solution'!</p>
                         <img className="a5" src={logo5} alt=""></img>
                         <div className="card overlay4">
                             <div className="text-area">
-                                <h2 className="text-area-header">Testimonial from Aryan Associate</h2>
-                                <hr className="belowline"></hr>
+                                <h2 className="text-area-header5">Testimonial from Aryan Associate</h2>
+                                <hr className="belowline5"></hr>
                                 <p className="text-area-data">
-                                We were impressed by how quickly Rushbee Studios understood our brief, and responded to feedback so promptly and <br/>
-                                accurately. We also really appreciated being presented with options at every step of the way, which gave us an opportunity
+                                We were impressed by how quickly Rushbee Studios understood our brief,<br/>
+                                and responded to feedback so promptly and accurately. We also really appreciated<br/>
+                                being presented with options at every step of the way, which gave us an opportunity
                                 </p>
                                 <p className="text-area-data1">
                                 to work collaboratively and generate some new ideas that we hadn’t considered ourselves.
@@ -304,11 +310,13 @@ Solution'!</p>
                         <img className="a6" src={logo6} alt=""></img> 
                         <div className="card overlay5">
                             <div className="text-area">
-                                <h2 className="text-area-header">Testimonial from ESTS</h2>
-                                <hr className="belowline"></hr>
+                                <h2 className="text-area-header6">Testimonial from ESTS</h2>
+                                <hr className="belowline6"></hr>
                                 <p className="text-area-data">
-                                Where talent meets experience. Very professional service!  We created the logo for our travelling company from scratch <br/>
-                                and finished with the full responsive and mobile friendly website design. We felt that our wishes were heard and excelled
+                                Where talent meets experience. Very professional service!  We created the logo for our<br/>
+                                travelling company from scratch and finished with the full responsive <br/>
+                                and mobile friendly website design. We felt that our wishes were heard and excelled
+                                 
                                 </p>
                                 <p className="text-area-data1">
                                 with on point insights. Would recommend! Read more http://www.graphicdesigner2b.co.uk/testimonials/
@@ -324,15 +332,16 @@ Solution'!</p>
                         <img className="a7" src={logo7} alt=""></img>
                         <div className="card overlay6">
                             <div className="text-area">
-                                <h2 className="text-area-header">Testimonial from griphapraphtham</h2>
-                                <hr className="belowline"></hr>
+                                <h2 className="text-area-header7">Testimonial from griphapraphtham</h2>
+                                <hr className="belowline7"></hr>
                                 <p className="text-area-data">
-                                Working with Rushbee Studios and there team is effortless - a quickly grasp on concepts and delivery of exceptional ideas <br/>
-                                with very little revision required - and all within the committed deadlines. I can't recommend enough due the speed, the 
+                                Working with Rushbee Studios and there team is effortless - a quickly grasp on concepts <br/>
+                                and delivery of exceptional ideas with very little revision required - and all<br/>
+                                within the committed deadlines. I can't recommend enough due the speed, the 
                                 </p>
                                 <p className="text-area-data1">
-                                quality, the attention to detail and the effectiveness of the finished product in addition to post production support. Big 
-                                Thanks! We'll be in touch soon.
+                                quality, the attention to detail and the effectiveness of the finished product in<br/>
+                                addition to post production support. Big Thanks! We'll be in touch soon.
                                 </p>
 
                                 
@@ -344,14 +353,15 @@ Solution'!</p>
                         <img className="a8" src={logo8} alt=""></img> 
                         <div className="card overlay7">
                             <div className="text-area">
-                                <h2 className="text-area-header">Testimonial from nefa</h2>
-                                <hr className="belowline"></hr>
+                                <h2 className="text-area-header8">Testimonial from nefa</h2>
+                                <hr className="belowline8"></hr>
                                 <p className="text-area-data">
-                                    Really listens to the client's needs and delivers a high quality results. Very satisfied with the speed, unique approach to <br/>
-                                    accurately. We also really appreciated being presented with options at every step of the way, which gave us an opportunity 
+                                    Really listens to the client's needs and delivers a high quality results.<br/>
+                                    Very satisfied with the speed, unique approach to  accurately.<br/>
+                                    We also really appreciated being presented with options at every step of the way, 
                                 </p>
                                 <p className="text-area-data1">
-                                business and friendly yet professional communication. Highly recommended!
+                                which gave us an opportunity business and friendly yet professional communication. Highly recommended!
                                 </p>
 
                                 
@@ -364,11 +374,12 @@ Solution'!</p>
                         <img className="a9" src={logo9} alt=""></img>
                         <div className="card overlay8">
                             <div className="text-area">
-                                <h2 className="text-area-header">Testimonial from Ataura</h2>
-                                <hr className="belowline"></hr>
+                                <h2 className="text-area-header9">Testimonial from Ataura</h2>
+                                <hr className="belowline9"></hr>
                                 <p className="text-area-data">
-                                After many years of seeking the best quality of design and fulfilling my craziest ideas I finally found Rushbee Studios.They <br/>
-                                were not only highly professional, but they understand me from just 1 word what I want to achieve. It is very rare quality in 
+                                After many years of seeking the best quality of design and fulfilling<br/>
+                                my craziest ideas I finally found Rushbee Studios. They were not only highly professional,<br/>
+                                but they understand me from just 1 word what I want to achieve. It is very rare quality in  
                                 </p>
                                 <p className="text-area-data1">
                                 this world. I highly recommend the design service by graphicdesigner2b. I wish huge success!

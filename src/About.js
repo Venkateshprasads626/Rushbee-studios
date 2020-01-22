@@ -153,10 +153,10 @@ class About extends Component {
                       <p className="details2">E-MAIL - rushbeestudios@gmail.com</p>
                       <p className="address"> 
                           <h2>ADDRESS:-</h2>
-                          AUTHURA Co-Working Space,<br/>
-                          5th Block, 2nd Floor,99D,2nd Cross Road,<br/>
-                          KHB Colony,Kormanagala,<br/>
-                          Bengaluru,560095<br/>
+                          RUSHBEE STUDIOS,<br/>
+                          No 12, 3rd cross, Patel Narayan Reddy Layout,<br/>
+                          Ejipura, 6th Block, Koramangala,<br/>
+                          Bengaluru, 560095<br/>
                           India
                       </p>
 

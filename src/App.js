@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.css';
+import $ from 'jquery';
 import './App.css'
 import logo from './images/logo.png'
 import {
@@ -18,18 +19,6 @@ class App extends Component {
   
   
   render() {
-
-window.onload= function (){
-  const hamburger = document.querySelector(".hamburger");
-  const navLinks = document.querySelector(".nav-links");
-  const links = document.querySelector(".nav-links li");
-
-  hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("open");
-    
-  });
-  }
-   
     return (
       <HashRouter>
         <div>

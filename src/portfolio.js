@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import './portfolio.css'
+import './imageslide.css'
 import Group19 from './images/Group19.png'
 import addressmap from './images/addressmap.png'
 import Group60 from './images/Group60.png'
@@ -18,51 +19,30 @@ import Group65 from './images/Group65.png'
 
  
 class portfolio extends Component {
-
   render() {
     return (
       <div className="portfoliopage">
-      <div className="portfolio">
-          {/* <div className="slides">
-            <input type="radio" name="p" id="c1" checked />  
-            <input type="radio" name="p" id="c2" />  
-            <input type="radio" name="p" id="c3" />  
-            <input type="radio" name="p" id="c4" />  
-            <input type="radio" name="p" id="c5" />  
-            <input type="radio" name="p" id="c6" /> 
-            <div className="slide pc1">
-                <img src={Group60} />
-            </div>   
-            <div className="slide pc1">
-                <img src={Group61} />
-            </div>   
-            <div className="slide pc1">
-                <img src={Group62} />
-            </div>   
-            <div className="slide pc1">
-                <img src={Group63} />
-            </div>       
-            <div className="slide pc1">
-                <img src={Group64} />
-            </div>   
-            <div className="slide pc1">
-                <img src={Group65} />
-            </div>   
-          </div>
-          <div className="change">
-            <label className="tool" for="c1"></label>
-            <label className="tool" for="c2 "></label>
-            <label className="tool" for="c3"></label>
-            <label className="tool" for="c4"></label>
-            <label className="tool" for="c5"></label>
-            <label className="tool" for="c6"></label>
-          </div> */}
-       
+     <div className="portfolio">
+      <div id="slider">
+            <input type="radio" name="slider" id="s1" checked></input>
+            <input type="radio" name="slider" id="s2"></input>
+            <input type="radio" name="slider" id="s3"></input>
+            <input type="radio" name="slider" id="s4"></input>
+            <input type="radio" name="slider" id="s5"></input>
+            <input type="radio" name="slider" id="s6"></input>
+
+            <label for="s1" id="slide1"></label>
+            <label for="s2" id="slide2"></label>
+            <label for="s3" id="slide3"></label>
+            <label for="s4" id="slide4"></label>
+            <label for="s5" id="slide5"></label>
+            <label for="s6" id="slide6"></label>
+      </div>
       </div>
 
       
 
-      <div className="Contact-area1">
+       <div className="Contact-area1">
                 <a href="https://www.google.com/maps/place/Rushbee+Studio's/@12.9391229,77.6265289,15z/data=!4m5!3m4!1s0x0:0x10217d16a27c5108!8m2!3d12.9391229!4d77.6265289" target="_blank">
                     <img src={addressmap} className="addressmap" alt=""></img>
                     <img className="Group19" src={Group19} alt=""></img>
@@ -86,7 +66,7 @@ class portfolio extends Component {
                           Ejipura, 6th Block, Koramangala,<br/>
                           Bengaluru, 560095<br/>
                           India
-                      </p>
+                          </p>
 
 
           </div>
@@ -126,9 +106,9 @@ class portfolio extends Component {
 
             </div>
             </footer>
-      </div>
+      
  
- 
+            </div>
     );
   }
 }
