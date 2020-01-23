@@ -1213,8 +1213,8 @@ margin-top: 40px;
     position: absolute;
     height: 240px;
     border: 2px solid black;
-    top: 110px;
-    left: -400px;
+    top: 183px;
+    left: 395px;
 }
 .testimony-data{
     position: absolute;
@@ -1434,9 +1434,3 @@ margin-top: 40px;
 
 
 /* this is for pc */
-@media screen and (max-width: 1440px) {
-    .vl5{
-        position: absolute;
-        left: -210px;
-    }
-}
