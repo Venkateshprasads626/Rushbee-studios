@@ -37,7 +37,7 @@ class form extends Component {
                                     <option value="Package Design">Package Design</option>
                                     <option value="Event Design">Event Design</option>
                                 </select>
-                                <button type="submit" value="submit" className="submitbtn" onlick="submit(this.value)">Submit</button>
+                                <button type="submit" value="submit" className="submitbtn">Submit</button>
                             </form>
                         </div>
               
@@ -46,10 +46,10 @@ class form extends Component {
              {/* This is map */}
             <div className="contactbox">
              <div className="Contact-area2">
-                <a href="https://www.google.com/maps/place/Rushbee+Studio's/@12.9391229,77.6265289,15z/data=!4m5!3m4!1s0x0:0x10217d16a27c5108!8m2!3d12.9391229!4d77.6265289" target="_blank">
+                <NavLink to="https://www.google.com/maps/place/Rushbee+Studio's/@12.9391229,77.6265289,15z/data=!4m5!3m4!1s0x0:0x10217d16a27c5108!8m2!3d12.9391229!4d77.6265289" target="_blank">
                     <img src={addressmap} className="addressmap" alt=""></img>
                     <img className="Group19" src={Group19} alt=""></img>
-                </a>
+                </NavLink>
             </div>
 
                
@@ -95,7 +95,7 @@ class form extends Component {
                             <li><NavLink to="/about">About-us</NavLink></li>
                             <li><NavLink to="/portfolio">Portfolio</NavLink></li>
                             </ul>
-                         <a href=""><div className="icon3"><i className="fa fa-angle-up" aria-hidden="true"></i></div></a>
+                         <div className="icon3"><i className="fa fa-angle-up" aria-hidden="true"></i></div>
                         </div>
 
 

@@ -19,7 +19,7 @@ import logo9 from './images/logo9.png'
 import Group19 from './images/Group19.png'
 import addressmap from './images/addressmap.png'
 import { NavLink } from  "react-router-dom"
-import form from './form';
+
 
 
 

@@ -10,6 +10,7 @@ import Group62 from './images/Group62.png'
 import Group63 from './images/Group63.png'
 import Group64 from './images/Group64.png'
 import Group65 from './images/Group65.png'
+import { Link } from 'react-router-dom'
 
 
 
@@ -43,10 +44,10 @@ class portfolio extends Component {
       
 
        <div className="Contact-area1">
-                <a href="https://www.google.com/maps/place/Rushbee+Studio's/@12.9391229,77.6265289,15z/data=!4m5!3m4!1s0x0:0x10217d16a27c5108!8m2!3d12.9391229!4d77.6265289" target="_blank">
+                <Link to="https://www.google.com/maps/place/Rushbee+Studio's/@12.9391229,77.6265289,15z/data=!4m5!3m4!1s0x0:0x10217d16a27c5108!8m2!3d12.9391229!4d77.6265289" target="_blank">
                     <img src={addressmap} className="addressmap" alt=""></img>
                     <img className="Group19" src={Group19} alt=""></img>
-                </a> 
+                </Link> 
       </div>
 
       <footer className="page-footer font-small teal pt-4">
@@ -79,7 +80,7 @@ class portfolio extends Component {
                     <div className="icon2"><i className="fa fa-facebook-official" aria-hidden="true"></i></div>
                     
                     
-                    <button className="btn btn-warning btn2"><a href="#"><h6>Get Connected</h6></a></button>
+                    <button className="btn btn-warning btn2"><h6>Get Connected</h6></button>
                   </div>
                   {/* This is verticle line in left side of the contact */}
                   <div className="vl1"></div>

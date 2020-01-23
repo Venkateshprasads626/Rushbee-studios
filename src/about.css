@@ -1158,3 +1158,285 @@ margin-top: 40px;
         margin-top: -168px;
     }
 }
+
+
+
+/* this section is for testimony */
+
+.testihead{
+    position: absolute;
+    font-size: 25px;
+    font-family: Poppins;
+    margin-top: -450px;
+    margin-left: 500px;
+    color: black;
+    font-weight: bold;
+}
+.testihr{
+    position: absolute;
+    background: black;
+    margin-top: -420px;
+    width: 120px;
+    margin-left: 520px;
+    border: 2px solid black;
+}
+.slick-next{
+    position: absolute;
+    margin-left: -10px;
+}
+
+
+.slick-slider{
+    height: 400px;
+    top: -470px;
+}
+.slick-dots{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+.testiimage{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.testiimage4{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+.vl8{
+    position: absolute;
+    height: 240px;
+    border: 2px solid black;
+    top: 110px;
+    left: -400px;
+}
+.testimony-data{
+    position: absolute;
+    font-size: 20px;
+    font-family: Poppins;
+    margin-left: 500px;
+    margin-top: -100px;
+}
+.testimony-data2{
+    position: absolute;
+    font-size: 20px;
+    font-family: Poppins;
+    margin-left: 450px;
+    margin-top: -100px;
+}
+.testimony-data3{
+    position: absolute;
+    font-size: 20px;
+    font-family: Poppins;
+    margin-left: 450px;
+    margin-top:80px;
+}
+.testimony-data4{
+    position: absolute;
+    font-size: 20px;
+    font-family: Poppins;
+    margin-left: 450px;
+    margin-top: -180px;
+}
+.testimony-data5{
+    position: absolute;
+    font-size: 20px;
+    font-family: Poppins;
+    margin-left: 450px;
+    margin-top: -180px;
+}
+.testimony-data6{
+    position: absolute;
+    font-size: 20px;
+    font-family: Poppins;
+    margin-left: 450px;
+    margin-top: -180px;
+}
+
+.testimony-data7{
+    position: absolute;
+    font-size: 20px;
+    font-family: Poppins;
+    margin-left: 450px;
+    margin-top: -180px;
+}
+
+.testimony-data8{
+    position: absolute;
+    font-size: 20px;
+    font-family: Poppins;
+    margin-left: 450px;
+    margin-top: -180px;
+}
+
+
+
+.testi2{
+    margin-top: -15px;
+    margin-left: 70px;
+}
+.testi3{
+    margin-top: -45px;
+}
+.testi4{
+    margin-top: -15px;
+    margin-left: 15px;
+}
+.testi5{
+    margin-top: -15px;
+    margin-left: 20px;
+}
+.testi6{
+    margin-top: -15px;
+    margin-left: 28px;
+}
+.testi7{
+    margin-top: -40px;
+    margin-left: 45px;
+}
+.testi8{
+    margin-top: -15px;
+    margin-left: 5px;
+}
+.testi9{
+    margin-top: -80px;
+    margin-left: -10px;
+}
+.testi10{
+    margin-top: -15px;
+}
+.testi11{
+    margin-top: -44px;
+    margin-left: 20px;
+}
+.testi12{
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.testi13{
+    margin-top: -16px;
+}
+.testi14{
+    margin-top: 50px;
+    margin-left: -10px;
+}
+.testi15{
+    margin-top: -16px;
+}
+.testi16{
+    margin-top: -45px;
+    margin-left: 15px;
+}
+.testi17{
+    margin-left: 90px;
+    margin-top: -18px;
+}
+.testi18{
+    margin-top: 40px;
+}
+.testi19{
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.testi20{
+    margin-top: -45px;
+    margin-left: 30px;
+}
+.testi21{
+    margin-top: -15px;
+}
+.testi22{
+    margin-left: 100px;
+    margin-top: -15px;
+}
+.testi23{
+    margin-top: 40px;
+    margin-left: -10px;
+}
+.testi24{
+    margin-top: -15px;
+    margin-left: 15px;
+}
+.testi25{
+    margin-top: -45px;
+    margin-left: -10px;
+}
+.testi26{
+    margin-top: -15px;
+}
+.testi27{
+    margin-top: 90px;
+    margin-left: -10px;
+}
+.testi28{
+    margin-top: -15px;
+}
+.testi29{
+    margin-top: -45px;
+    margin-left: 10px;
+}
+.testi30{
+    margin-top: -20px;
+    margin-left: -25px;
+}
+.testi31{
+    margin-top: -15px;
+    margin-left: -5px;
+}
+.testi32{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.testi33{
+    margin-top: -15px;
+    margin-left: 50px;
+}
+.testi34{
+    margin-top: -45px;
+    margin-left: -5px;
+}
+.testi35{
+    margin-top: -15px;
+    margin-left: 40px;
+}
+.testi36{
+    margin-top: 75px;
+    margin-left: 10px;
+}
+.testi37{
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.testi38{
+    margin-top: -45px;
+    margin-left: 20px;
+}
+.testi39{
+    margin-top: -15px;
+    margin-left: 90px;
+}
+.testi40{
+    margin-top: -15px;
+    margin-left: -10px;
+}
+.testi41{
+    margin-top: -17px;
+    margin-left: 250px;
+}
+
+
+
+
+/* this is for pc */
+@media screen and (max-width: 1440px) {
+    .vl5{
+        position: absolute;
+        left: -210px;
+    }
+}
