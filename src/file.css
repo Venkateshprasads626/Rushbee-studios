@@ -636,43 +636,99 @@
     .overlay,.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6,.overlay7,.overlay8{
         display: none;
     }
-    .card7,.a1,.card8,.a2,.card9,.a3,.card10,.a4,.card11,.a5,.card12,.a6,.card13,.a7,.card14,.a8,.card15,.a9{
-            width: 150px;
-            height: 110px;
-            padding: 10px;
+    .card7{
+        width: 160px;
+        height: 110px;
+        margin-left: 50px;
+
     }
-    .card7,.a1{
-        margin-left: initial;
+    .a1{
+        width: 160px;
+        height: 110px;
+        margin: 0px;
     }
-    .card8,.a2{
-        margin-left: 150px;
+    .card8{
+        width: 150px;
+        height: 100px;
+        margin-left: 480px;
+
     }
-    .card9,.a3{
-        margin-left: 65%;
-        margin-top: -2%;
+    .a2{
+        width: 150px;
+        height: 100px;
     }
-    .card10,.a4{
-        margin-left: initial;
+    .card9{
+        width: 150px;
+        height: 110px;
+        margin-left: 890px;
+        margin-top: -5%;
+
+    }
+    .a3{
+        width: 150px;
+        height: 110px;
+        margin: 0px;
+    }
+    .card10{
+        width: 150px;
+        height: 110px;
+        margin-left: 60px;
         top: 5%;
-        width: 170px;
+
     }
-    .card11,.a5{
-        margin-left: 150px;
-        width: 170px;
+    .a4{
+        width: 150px;
+        height: 110px;
     }
-    .card12,.a6{
-        margin-left: 65%;
+    .card11{
+        margin-left: 480px;
+        width: 150px;
+        height: 110px;
+       
     }
-    .card13,.a7{
-        margin-left: initial;
-        width: 170px;
+    .a5{
+        width: 150px;
+        height: 110px;
     }
-    .card14,.a8{
-        margin-left: 150px;
-        width: 170px;
+    .card12{
+        margin-left: 890px;
+        width: 150px;
+        height: 110px;
+       
     }
-    .card15,.a9{
-        margin-left: 65%;
+    .a6{
+        width: 150px;
+        height: 110px;
+    }
+    .card13{
+        margin-left: 60px;
+        width: 180px;
+        height: 110px;
+      
+    }
+    .a7{
+        width: 180px;
+        height: 110px;
+    }
+    .card14{
+        margin-left: 480px;
+        width: 150px;
+        height: 110px;
+ 
+    }
+    .a8{
+        width: 150px;
+        height: 110px;
+    }
+    .card15{
+        margin-left: 890px;
+        width: 160px;
+        height: 100px;
+      
+    }
+    .a9{
+        width: 160px;
+        height: 100px;
     }
 
 
@@ -687,7 +743,7 @@
         top: 500px;
         margin-left: 0px;
         bottom: 0px;
-        top: 400px;
+        top: 300px;
     }
     .clienthead{
         font-size: 20px;
@@ -696,77 +752,120 @@
     .horizantalline{
         margin-left: 180px;
     }
-    .card7,.a1,.card8,.a2,.card9,.a3,.card10,.a4,.card11,.a5,.card12,.a6,.card13,.a7,.card14,.a8,.card15,.a9{
-        width: 110px;
-        height: 80px;
-        padding: 10px;
-    }
-.card7,.a1{
-    margin-left: initial;
-}
-.card8{
-    margin-left: 160px;
-    margin-top: 145px;
-}
-.a2{
-    margin: 0px;
-    margin-left: -10px;
-}
-.card9{
-    width: 100px;
-    margin-left: 74%;
-}
-.a3{
-    margin: 0px;
-    margin-left: -10px;
-    margin-top: -5px;
-}
-.card10,.a4{
-    margin-left: initial;
-    top: 0%;
-    width: 120px;
-}
-.card11{
-    margin-left: 160px;
-    width: 100px;
-    top: -50px;
-}
-.a5{
-    margin: 0px;
-    margin-top: -5px;
+  
+.card7{
     width: 110px;
-    margin-left: -15px;
-}
-.card12{
-    margin-left: 74%;
-    margin-top: 300px;
+    height: 80px;
+    margin-left: 45px;
 
 }
-.a6{
-    margin: 0px;
-    margin-left: -5px;
-    margin-top: -10px;
+.a1{
+    width: 110px;
+    height: 80px;
 }
-.card13,.a7{
-    margin-left: initial;
+.card8{
+    width: 110px;
+    height: 80px;
+    margin-left: 320px;
+    margin-top: 140px;
+   
+}
+.a2{
+    width: 110px;
+    height: 80px;
+    margin: 0px;
+   
+}
+.card9{
+    width: 110px;
+    height: 80px;
+    margin-left: 590px;
+  
+    margin-top: -33px;
+}
+.a3{
+    width: 110px;
+    height: 80px;
+    margin: 0px;
+    
+}
+.card10{
+    width: 110px;
+    height: 80px;
+    margin-left: 48px;
+    top: 20px;
+    width: 120px;
+   
+}
+.a4{
+    width: 110px;
+    height: 80px;
+}
+.card11{
+    width: 110px;
+    height: 80px;
+    margin-left: 320px;
+    width: 100px;
+    top: -30px;
+  
+}
+.a5{
+    width: 110px;
+    height: 80px;
+    margin: 0px;
+    
+}
+.card12{
+    width: 110px;
+    height: 80px;
+    margin-left: 590px;
+    margin-top: 350px;
+   
+}
+.a6{
+    width: 110px;
+    height: 80px;
+    margin: 0px;
+   
+}
+.card13{
+    width: 110px;
+    height: 80px;
+    margin-left: 55px;
     width: 140px;
     top: -70px;
+    
+}
+.a7{
+    width: 150px;
+    height: 80px;
+    margin: 0px;
 }
 .card14{
-    margin-left: 160px;
+    width: 110px;
+    height: 80px;
+    margin-left: 320px;
     width: 110px;
     top: -70px;
+    
    
 }
 .a8{
-    margin: 0px;
+    width: 110px;
+    height: 80px;
+    margin: 8px;
 }
 .card15{
-    margin-left: 73%;
+    width: 110px;
+    height: 80px;
+    margin-left: 590px;
     top: -70px;
+   
 
 }
 .a9{
+    width: 110px;
+    height: 80px;
     margin: 0px;
 }
 }
@@ -774,10 +873,10 @@
 /* this is for phones */
 @media screen and (max-width: 380px) {
     .clienthead{
-        margin-left: 120px;
+        margin-left: 135px;
     }
     .horizantalline{
-        margin-left: 145px;
+        margin-left: 148px;
     }
    
     .card7,.a1,.card8,.a2,.card9,.a3,.card10,.a4,.card11,.a5,.card12,.a6,.card13,.a7,.card14,.a8,.card15,.a9{
@@ -1218,7 +1317,7 @@ a:hover{
 
 
     .Contact-area{
-        margin-top: 130%;
+        margin-top: 100%;
         width: 100%;
         height: 150px;
         background: white;
@@ -1311,6 +1410,12 @@ a:hover{
 
 /* this is for phones */
 @media screen and (max-width: 375px) {
+        .Contact-area{
+            margin-top: 300px;
+            width: 100%;
+            height: 150px;
+            background: white;
+        }
         .container-fluid{
             width: 100%;
             margin-left: 40px;

@@ -16,7 +16,16 @@ import form from "./form";
  
 class App extends Component {
 
-  
+  componentDidMount = () => {
+     
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    const links = document.querySelectorAll(".nav-links li");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("open");
+});
+  }
   
   render() {
     return (
@@ -26,10 +35,6 @@ class App extends Component {
                   <img className="logo" src={logo} alt=""></img>
              </div>
              <nav>
-                {/* <input type="checkbox" id="check"></input>
-                  <label for="check" className="checkbtn">
-                      <i className="fa fa-bars" aria-hidden="true"></i>
-                  </label> */}
                   <div className="hamburger">
                     <div className="line"></div>
                     <div className="line"></div>
