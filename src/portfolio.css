@@ -209,3 +209,21 @@ input[type=radio]:checked {
     }
 }
 
+/* This is for mobiles */
+@media screen and (max-width: 425px) {
+  .portfolio{
+    width: 95%;
+    height: 250px;
+    margin-left: 12px;
+  }
+  
+  .Contact-area1{
+    margin-top: 20%;       
+    height: 150px;
+    background: white;  
+}
+footer{
+  
+}
+
+}

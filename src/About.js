@@ -188,10 +188,12 @@ class About extends Component {
           <hr className="testihr"></hr>
           <div className="vl8"></div>
   
-          <div className="">
+          <div className="testimony-images">
           <Slider {...settings}>
           <div>
+            <div className="ds">
            <img className="testiimage" src={test1} alt="" />
+           </div>
            <div className="testimony1">
            <div className="testimony-data">
             <p className="testi1">Responsive to communications & helpful in providing<br/></p>

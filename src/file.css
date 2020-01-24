@@ -1306,11 +1306,7 @@ a:hover{
         transform: matrix(1, 0, 0, -1, 0, 0);
     }
 }
-@media screen and (max-width: 768px) {
-    html,body{
-        overflow-x: hidden;
-    }
-}
+
 /* this is for 425px phones */
 
 @media screen and (max-width: 425px) {

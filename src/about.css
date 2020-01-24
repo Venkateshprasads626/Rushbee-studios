@@ -255,13 +255,93 @@ margin-top: 40px;
     }
 }
 
-/* this is for mobile 380px */
+/* this is for mobile 425px */
+@media screen and (max-width: 425px) {
+    .card50{
+        width: 95%;
+        height: 250px;
+        margin-left: 11px;
+    }
+    .about-text{
+        width: 500px;
+        font-size: 9.5px;
+        line-height: 0px;
+        margin-left: 60px;
+    }
+    .card50
+    .abouthead{
+        font-size: 18px;
+    }
+    .card50
+    .aboutunder{
+        position: absolute;
+        margin-left: -195px;
+        width: 70px;
+    }
+    .ab1{
+        margin-left: -10px;
+    }
+    .ab2{
+        margin-top: -5px;
+        margin-left: -26px;
+    }
+    .ab3{
+        margin-top: -5px;
+        margin-left: -20px;
+    }
+    .ab4{
+        margin-top: -5px;
+        margin-left: 20px;
+    }
+    .ab5{
+        margin-top: -5px;
+        margin-left: -24px;
+    }
+    .ab6{
+        margin-top: -5px;
+        margin-left: 50px;
+    }
+    .ab7{
+        width: 450px;
+    margin-left: -32px;
+    margin-top: 20px;
+    }
+    .ab8{
+        margin-top: -5px;
+        margin-left: -34px;
+    }
+    .ab9{
+        margin-top: -5px;
+        margin-left: -27px;
+    }
+    .ab10{
+        margin-top: -5px;
+        margin-left: -20px;
+    }
+    .ab11{
+        margin-top: -5px;
+        margin-left: 10px;
+    }
+      
+    .Group4{
+        margin-top: -29px;
+        float: right;
+        margin-right: 5px;
+        width: 40px;
+        height: 70px;
+    }
+    .Group5{
+        margin-top: -92px;
+        width: 40px;
+        height: 70px;
+        margin-left: 5px;
+    }
+}
 @media screen and (max-width: 380px) {
     .card50{
         width: 97%;
         height: 230px;
         margin-left: 5.6px;
-        
     }
     .about-text{
         width: 500px;
@@ -784,29 +864,242 @@ margin-top: 40px;
         margin-left: 20px;
     }
 }
+/* this is for phones */
+@media screen and (max-width: 425px) {
+    .ourteam{
+        width: 100%;
+        height: 850px;
+        margin-left: 0px;
+    }
+    .teammember1{
+        width: 97%;
+        height: 200px;
+        margin-left: 6px;
+        margin-top: 110px;
+    }
+    .teammember2{
+        width: 97%;
+        height: 200px;
+        margin-left: 6px;
+        margin-top: 350px;
+    }
+    .teammember3{
+        width: 97%;
+        height: 200px;
+        top: -600px;
+        margin-left: 6px;
+    }
+    .teamhead{
+        margin-left: 170px;  
+        font-size: 20px;
+        top: -60px;
+    }
+    .teamhr{
+        margin-left: 180px;
+        top: -65px;   
+    }
+    .fa-instagram{
+        font-size: 20px;
+        color: #000000;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    .fa-twitter-square{
+        font-size: 20px;
+        color: #000000;
+        margin-left: 20px;
+    }
+    .fa-facebook-square{
+        font-size: 20px;
+        color: #000000;
+        margin-left: 30px;
+    }
+    
+   .Group37,.Group38,.Group39{
+        width: 15%;
+        margin-left: 25px;
+   }
+   .vl3{
+    height: 100px;
+    width: 0px;
+    border: 2px solid black;
+    margin-left: 130px;
+    margin-top: -45px;
+   }
+   .vl4{
+        height: 100px;
+        width: 0px;
+        border: 2px solid black;
+        margin-left: 130px;
+        margin-top: -45px;
+   }
+
+    .membertext{
+        font-size: 10px;
+        margin-left: 155px;
+        margin-top: -140px;
+        line-height: 1px;
+        width: 500px;
+    }
+    
+    .mt2{
+        margin-left: -5px;
+        margin-top: -4px;
+    }
+    .mt3{
+        margin-top: -4px;
+        margin-left: 1px;
+        
+    }
+    .mt4{
+        margin-left: 0px;
+        margin-top: -5px;
+    }
+    .mt5{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .mt6{
+        margin-top: 6px;
+        margin-left: 15px;
+    }
+    .mt7{
+        margin-left: 5px;
+        margin-top: -3px;
+    }
+    .mt8{
+        margin-left: -10px;
+        margin-top: -4px;
+    }
+    .mt9{
+        margin-top: -3px;
+        margin-left: 20px;
+    }
+    .membername1{
+        font-size: 10px;
+        margin-left: 30px;
+        margin-top: -40px;
+    }
+    .membername12{
+        font-size: 8px;
+        margin-left: -280px;
+        margin-top: -1px;
+    }
+    .membername2{
+        font-size: 10px;
+        margin-left: 40px;
+        margin-top: -35px;
+    }
+    .membername21{
+        margin-left: -295px;
+        font-size: 8px;
+        margin-top: -1px;
+    }
+    .membername3{
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: -35px;
+    }
+    .membername31{
+        font-size: 8px;
+        margin-left: -290px;
+        margin-top: -1px;
+    }
+    .membertext2{
+        font-size: 10px;
+        margin-left: 10px;
+        margin-top: -20px;
+        line-height: 1px;
+        width: 500px;
+    }
+    .mt11{
+       margin-left: 2px; 
+    }
+    .mt22{
+        margin-top: -3px;
+        margin-left: -5px;
+    }
+    .mt33{
+        margin-left: -12px;
+        margin-top: -3px;
+    }
+    .mt44{
+        margin-top: -3px;
+        margin-left: -3px;
+    }
+    .mt55{
+        margin-top: -3px;
+        margin-left: 40px;
+    }
+    .mt66{
+        margin-top: 1px;
+        margin-left: -5px;
+    }
+    .mt77{
+        margin-top: -5px;
+        margin-left: 10px;
+    }
+    .mt88{
+        margin-top: -5px;
+        margin-left: 3px;
+    }
+    .mt99{
+        margin-top: -5px;
+        margin-left: 20px;
+    }
+    .mt100{
+        margin-top: -5px;
+        margin-left: 15px;
+    }
+    .mt111{
+        margin-left: 70px;
+        margin-top: -5px;
+    }
+    .membertext3{
+        margin-top: 20px;
+    }
+    .mtt1{
+        margin-left: 15px;
+    }
+    .mtt2{
+        margin-top: -2px;
+    }
+    .mtt3{
+        margin-left: -10px;
+    }
+    .mtt4{
+        margin-left: -10px;
+    }
+    .mtt5{
+        margin-top: -2px;
+    }
+    .mtt6{
+        margin-left: 10px;
+    } 
+}
 
 @media screen and (max-width: 380px) {
         .ourteam{
             width: 100%;
-            height: 1100px;
+            height: 850px;
             margin-left: 0px;
         }
         .teammember1{
-            width: 97%;
+            width: 98%;
             height: 200px;
-            margin-left: 6px;
+            margin-left: 3px;
         }
         .teammember2{
-            width: 97%;
+            width: 98%;
             height: 200px;
-            margin-left: 6px;
-            top:  -200px;
+            margin-left: 3px;
+            top:  5px;
         }
         .teammember3{
-            width: 97%;
+            width: 98%;
             height: 200px;
-            top: -400px;
-            margin-left: 6px;
+            top: -600px;
+            margin-left: 3px;
         }
         .teamhead{
             margin-left: 130px;  
@@ -855,11 +1148,15 @@ margin-top: 40px;
        }
     
         .membertext{
-            font-size: 10px;
+            font-size: 9px;
             margin-left: 155px;
             margin-top: -140px;
             line-height: 1px;
             width: 500px;
+        }
+        .membertext2{
+            font-size: 9px;
+            margin-left: 0px;
         }
         
         .mt2{
@@ -1026,24 +1323,22 @@ margin-top: 40px;
         margin-left: 10%;
     }
 }
-
-@media screen and (max-width: 380px) {
+/* this is for phone */
+@media screen and (max-width: 768px) {
     .testimony{
-        width: 100%;
+        max-width: 100%;
         height: 400px;
-        margin-left: 0px;
-        top: -150px;
     }
-    .group51{
-        margin-top: 0px;
-        height: 50px;
+    .testimony-data{
+        font-size: 8x;
+        margin-left: -20px;
     }
-    .group52{
-        height: 50px;
-        margin-top: 300px;
-        
+    .testi1,.testi2,.testi3,.testi4{
+        font-size: 10px;
+        margin-left: -90px;
     }
 }
+
 
 
 /* This section is avtars */
@@ -1111,6 +1406,46 @@ margin-top: 40px;
         margin-top: 340px;
     }
 }
+
+/* this is for mobiles */
+@media screen and (max-width: 425px) {
+    .avatars{
+        
+        width: 100%;
+        height: 200px;
+        margin-left: 0px;
+        margin-top: 1400px;
+    }
+    .avatar5{
+        position: absolute;
+        margin-left: -50px;
+        width: 50px;
+        margin-top: -190px;
+    }
+    .avatar1{
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 30px;
+        width: 50px;
+        height: 70px;
+    }
+    .avatar2{
+        margin-top: 123px;
+        margin-left: 130px;
+        width: 50px;
+    }
+    .avatar3{
+        margin-top: 119px;
+        margin-left: 60px;
+        width: 50px;
+    }
+    .avatar4{
+        margin-left: 370px;
+        margin-top: -80px;
+        width: 20px;
+    }
+}
+
 
 @media screen and (max-width: 380px) {
     .avatars{
@@ -1273,9 +1608,54 @@ margin-top: 40px;
     font-family: Poppins;
     margin-left: 450px;
     margin-top: -180px;
+}@media screen and (max-width: 425px) {
+    .testimony{
+        width: 100%;
+        height: 300px;
+        margin-left: 0px;
+        top: -450px;
+    }
+    .group51{
+        margin-top: 0px;
+        height: 50px;
+    }
+    .group52{
+        height: 50px;
+        margin-top: 200px; 
+    }
+    .testiimage{
+        width: 100px;
+        height: 50px;
+        background: red;
+    }
+    .testi1,.testi2,.testi3,.testi4,.testi5{
+        
+        font-size:6px;
+        color: red;
+        width: 700px;
+        margin-top: 80px;
+        margin-left: -500px;
+        z-index: 2;
+    }
+    
 }
-
-
+@media screen and (max-width: 380px) {
+    .testimony{
+        width: 100%;
+        height: 400px;
+        margin-left: 0px;
+        top: -150px;
+    }
+    .group51{
+        margin-top: 0px;
+        height: 50px;
+    }
+    .group52{
+        height: 50px;
+        margin-top: 300px;
+        
+    }
+}
 
 .testi2{
     margin-top: -15px;
@@ -1434,3 +1814,72 @@ margin-top: 40px;
 
 
 /* this is for pc */
+@media screen and (max-width: 425px) {
+    .testimony{
+        width: 100%;
+        height: 300px;
+        margin-left: 0px;
+        top: -450px;
+    }
+    .group51{
+        margin-top: 0px;
+        height: 50px;
+    }
+    .group52{
+        height: 50px;
+        margin-top: 200px; 
+    }
+    .testiimage{
+        width: 100px;
+        height: 50px;
+        background: red;
+        margin-left: 25px;
+        margin-top: 180px;
+    }
+    .testimony-data{
+        
+    }
+    .testi1{
+        font-size:8px;
+        color: red;
+        width: 700px;
+        margin-top: 80px;
+        margin-left: -300px
+    }
+    .testi2{
+        font-size: 8px;
+        margin-left: -260px;
+    }
+    .testi3{
+        color: red;
+        margin-left: -20px;
+    }
+
+    .slick-slider{
+        width: 100%;
+        margin-top: 120px;
+    }
+    .vl8{
+        height: 120px;
+        margin-top: -80px;
+        margin-left: -230px;
+    }
+    
+}
+@media screen and (max-width: 380px) {
+    .testimony{
+        width: 100%;
+        height: 400px;
+        margin-left: 0px;
+        top: -150px;
+    }
+    .group51{
+        margin-top: 0px;
+        height: 50px;
+    }
+    .group52{
+        height: 50px;
+        margin-top: 300px;
+        
+    }
+}
