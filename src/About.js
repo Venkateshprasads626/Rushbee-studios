@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import './about.css';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import $ from 'jquery'
 import Slider from "react-slick"
 import Group41 from './images/Group41.png'
 import Group42 from './images/Group42.png'
@@ -26,60 +25,108 @@ import avatar4 from './images/avatar4.png'
 import avatar5 from './images/avatar5.png'
 
 
-const photos = [
-  {
-    name: 'test1',
-    url: "images/test1.png"
-  },
-  {
-    name: 'test2',
-    url: "images/test2.png"
-  },
-  {
-    name: 'test3',
-    url: "images/test3.png"
-  },
-  {
-    name: 'test4',
-    url: "images/test4.png"
-  },
-  {
-    name: 'test5',
-    url: "images/test5.png"
-  },
-  {
-    name: 'test6',
-    url: "images/test6.png"
-  },
-  {
-    name: 'test7',
-    url: "images/test7.png"
-  },
-  {
-    name: 'test8',
-    url: "images/test8.png"
-  },
-  {
-    name: 'test9',
-    url: "images/test9.png"
-  }
-]
 
 
 
 
 class About extends Component {
+componentDidMount = () =>{
+  $('.slider').each(function() {
+    var $this = $(this);
+    var $group = $this.find('.slide_group');
+    var $slides = $this.find('.slide');
+    var bulletArray = [];
+    var currentIndex = 0;
+    var timeout;
+    
+    function move(newIndex) {
+      var animateLeft, slideLeft;
+      
+      advance();
+      
+      if ($group.is(':animated') || currentIndex === newIndex) {
+        return;
+      }
+      
+      bulletArray[currentIndex].removeClass('active');
+      bulletArray[newIndex].addClass('active');
+      
+      if (newIndex > currentIndex) {
+        slideLeft = '100%';
+        animateLeft = '-100%';
+      } else {
+        slideLeft = '-100%';
+        animateLeft = '100%';
+      }
+      
+      $slides.eq(newIndex).css({
+        display: 'block',
+        left: slideLeft
+      });
+      $group.animate({
+        left: animateLeft
+      }, function() {
+        $slides.eq(currentIndex).css({
+          display: 'none'
+        });
+        $slides.eq(newIndex).css({
+          left: 0
+        });
+        $group.css({
+          left: 0
+        });
+        currentIndex = newIndex;
+      });
+    }
+    
+    function advance() {
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+        if (currentIndex < ($slides.length - 1)) {
+          move(currentIndex + 1);
+        } else {
+          move(0);
+        }
+      }, 4000);
+    }
+    
+    $('.next_btn').on('click', function() {
+      if (currentIndex < ($slides.length - 1)) {
+        move(currentIndex + 1);
+      } else {
+        move(0);
+      }
+    });
+    
+    $('.previous_btn').on('click', function() {
+      if (currentIndex !== 0) {
+        move(currentIndex - 1);
+      } else {
+        move(3);
+      }
+    });
+    
+    $.each($slides, function(index) {
+      var $button = $('<a class="slide_btn">&bull;</a>');
+      
+      if (index === currentIndex) {
+        $button.addClass('active');
+      }
+      $button.on('click', function() {
+        move(index);
+      }).appendTo('.slide_buttons');
+      bulletArray.push($button);
+    });
+    
+    advance();
+  }); 
+}
+
+
+
+
+
   render() {
-    const settings = {
-      dots: true,
-      fade: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: true,
-      className: "slides"
-    };
     return (
       <div>
         <div className="card card50">
@@ -189,104 +236,106 @@ class About extends Component {
           <div className="vl8"></div>
   
           <div className="testimony-images">
-          <Slider {...settings}>
-          <div>
-            <div className="ds">
-           <img className="testiimage" src={test1} alt="" />
-           </div>
-           <div className="testimony1">
-           <div className="testimony-data">
-            <p className="testi1">Responsive to communications & helpful in providing<br/></p>
-            <p className="testi2">insight toward business goals.</p><br/>
-            <p className="testi3">He made the overwhelming process of getting</p>
-            <p className="testi4">my business design out of my head painless.</p>
+          <div class="slider">
+        <div class="slide_viewer">
+          <div class="slide_group">
+            <div class="slide">
+                <img class="slideimage" src={test1} alt=""/>
+                <div className="testimony-data">
+                    <p className="testi1">Responsive to communications & helpful in providing<br/></p>
+                    <p className="testi2">insight toward business goals.</p><br/>
+                    <p className="testi3">He made the overwhelming process of getting</p>
+                    <p className="testi4">my business design out of my head painless.</p>
+                </div>
+            </div>
+            <div class="slide" Checked>
+                <img class="slideimage" src={test2} alt=""/>
+                <div className="testimony-data2">
+                    <p className="testi5"> Rushbee Studios is an artistic and gifted organization  who can assist  <br/></p>
+                    <p className="testi6">any business in developing an identity. I would highly recommend </p><br/>
+                    <p className="testi7">Rushbee Studios for this  work, responsiveness, value, and ability .</p>
+                    <p className="testi8">to implement client’s goals my business design out of my head painless.</p>
           
+                </div>
+            </div>
+            <div class="slide">
+                <img class="slideimage" src={test3} alt=""/>
+                <div className="testimony-data9">
+                    <p className="testi9">Rushbee Studios was wonderful to work with. We asked for many different <br/></p>
+                    <p className="testi10">variations during the design process of our logo and was very patient </p><br/>
+                    <p className="testi11">in working with us until we found the one that worked best for us. </p>
+                    <p className="testi12">They were very professional, easy to work with and very responsive.</p>
+                    <p className="testi13">would highly recommend them to anyone looking for design services.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img class="slideimage" src={test4} alt=""/>
+                <div className="testimony-data3">
+                    <p className="testi14"> I had a fantastic experience working with Rushbee Studios throughout the  <br/></p>
+                    <p className="testi15"> process of designing my business website. I was so taken aback at how </p><br/>
+                    <p className="testi16"> many concepts they came up with, how many revisions they made, </p>
+                    <p className="testi17"> and how patient they were with me throughout it all.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img class="slideimage" src={test5} alt=""/>
+                <div className="testimony-data4">
+                    <p className="testi18">We were impressed by how quickly Rushbee Studios understood our brief,  <br/></p>
+                    <p className="testi19">and responded to feedback so promptly and accurately. We also really </p><br/>
+                    <p className="testi20">appreciated being presented with options at every step of the way, </p>
+                    <p className="testi21">which gave us an opportunity to work collaboratively and generate some </p>
+                    <p className="testi22">new ideas that we hadn’t considered ourselves.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img class="slideimage" src={test6} alt=""/>
+                <div className="testimony-data5">
+                    <p className="testi23"> Where talent meets experience. Very professional service!  We created the<br/></p>
+                    <p className="testi24">logo for our travelling company from scratch and finished with the</p><br/>
+                    <p className="testi25">full responsive  and mobile friendly website design. We felt that our wishes  </p>
+                    <p className="testi26">were heard and excelled with on point insights. Would recommend!</p>
+                    <a href="Read more http://www.graphicdesigner2b.co.uk/testimonials/"></a>
+                </div>
+            </div>
+            <div class="slide">
+                <img class="slideimage" src={test7} alt=""/>
+                <div className="testimony-data6">
+                    <p className="testi27">Working with Rushbee Studios and there team is effortless - a quickly  <br/></p>
+                    <p className="testi28">grasp on concepts  and delivery of exceptional ideas with very little</p><br/>
+                    <p className="testi29">revision required - and all  within the committed deadlines. I can't </p>
+                    <p className="testi30">recommend enough due the speed, the quality, the attention to detail and  </p>
+                    <p className="testi31">the effectiveness of the finished product in  addition to post production</p>
+                    <p className="testi32"> support. Big Thanks! We'll be in touch soon.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img class="slideimage" src={test8} alt=""/>
+                <div className="testimony-data7">
+                  <p className="testi33">Really listens to the client's needs and delivers a high quality results. <br/></p>
+                  <p className="testi34">Very satisfied with the speed, unique approach to  accurately</p><br/>
+                  <p className="testi35">We also really appreciated being presented with options at every step of   </p>
+                  <p className="testi36">the way, which gave us an opportunity business and friendly yet </p>
+                  <p className="testi37">professional communication. Highly recommended!</p>
            </div>
+            </div>
+            <div class="slide">
+                <img class="slideimage" src={test9} alt=""/>
+                <div className="testimony-data8">
+                    <p className="testi38">After many years of seeking the best quality of design and fulfilling <br/></p>
+                    <p className="testi39">my craziest ideas I finally found Rushbee Studios. They were not only</p><br/>
+                    <p className="testi40">highly professional, but they understand me from just 1 word what</p>
+                    <p className="testi41">I want to achieve. It is very rare quality in this world.</p>
+                    <p className="testi42">I highly recommend the design service by graphicdesigner2b.</p>
+                    <p className="testi43">I wish huge success!</p>
            </div>
+            </div>
           </div>
-          <div>
-              <img className="testiimage" src={test2} alt="" />
-              <div className="testimony-data2">
-            <p className="testi5"> Rushbee Studios is an artistic and gifted organization  who can assist  <br/></p>
-            <p className="testi6">any business in developing an identity. I would highly recommend </p><br/>
-            <p className="testi7">Rushbee Studios for this  work, responsiveness, value, and ability .</p>
-            <p className="testi8">to implement client’s goals my business design out of my head painless.</p>
-          
-           </div>
-          </div>
-          <div>
-          <img  className="testiimage" src={test3} alt="" />
-          <div className="testimony-data2">
-            <p className="testi9">Rushbee Studios was wonderful to work with. We asked for many different <br/></p>
-            <p className="testi10">variations during the design process of our logo and was very patient </p><br/>
-            <p className="testi11">in working with us until we found the one that worked best for us. </p>
-            <p className="testi12">They were very professional, easy to work with and very responsive.</p>
-            <p className="testi13">would highly recommend them to anyone looking for design services.</p>
-          
-           </div>
-          </div>
-          <div>
-          <img className="testiimage4" src={test4} alt="" />
-          <div className="testimony-data3">
-            <p className="testi14"> I had a fantastic experience working with Rushbee Studios throughout the  <br/></p>
-            <p className="testi15"> process of designing my business website. I was so taken aback at how </p><br/>
-            <p className="testi16"> many concepts they came up with, how many revisions they made, </p>
-            <p className="testi17"> and how patient they were with me throughout it all.</p>
-           </div>
-          </div>
-          <div>
-          <img className="testiimage" src={test5} alt="" />
-          <div className="testimony-data4">
-            <p className="testi18">We were impressed by how quickly Rushbee Studios understood our brief,  <br/></p>
-            <p className="testi19">and responded to feedback so promptly and accurately. We also really </p><br/>
-            <p className="testi20">appreciated being presented with options at every step of the way, </p>
-            <p className="testi21">which gave us an opportunity to work collaboratively and generate some </p>
-            <p className="testi22">new ideas that we hadn’t considered ourselves.</p>
-           </div>
-          </div>
-          <div>
-          <img className="testiimage" src={test6} alt="" />
-          <div className="testimony-data5">
-            <p className="testi23"> Where talent meets experience. Very professional service!  We created the<br/></p>
-            <p className="testi24">logo for our travelling company from scratch and finished with the</p><br/>
-            <p className="testi25">full responsive  and mobile friendly website design. We felt that our wishes  </p>
-            <p className="testi26">were heard and excelled with on point insights. Would recommend!</p>
-            <a href="Read more http://www.graphicdesigner2b.co.uk/testimonials/"></a>
-           </div>
-          </div>
-          <div>
-          <img className="testiimage" src={test7} alt="" />
-          <div className="testimony-data6">
-            <p className="testi27">Working with Rushbee Studios and there team is effortless - a quickly  <br/></p>
-            <p className="testi28">grasp on concepts  and delivery of exceptional ideas with very little</p><br/>
-            <p className="testi29">revision required - and all  within the committed deadlines. I can't </p>
-            <p className="testi30">recommend enough due the speed, the quality, the attention to detail and  </p>
-            <p className="testi31">the effectiveness of the finished product in  addition to post production</p>
-            <p className="testi32"> support. Big Thanks! We'll be in touch soon.</p>
-           </div>
-          </div>
-          <div>
-          <img className="testiimage" src={test8} alt="" />
-          <div className="testimony-data7">
-            <p className="testi32">Really listens to the client's needs and delivers a high quality results. <br/></p>
-            <p className="testi33">Very satisfied with the speed, unique approach to  accurately</p><br/>
-            <p className="testi34">We also really appreciated being presented with options at every step of   </p>
-            <p className="testi35">the way, which gave us an opportunity business and friendly yet </p>
-            <p className="testi36">professional communication. Highly recommended!</p>
-           </div>
-          </div>
-          <div>
-          <img className="testiimage" src={test9} alt="" />
-          <div className="testimony-data8">
-            <p className="testi36">After many years of seeking the best quality of design and fulfilling <br/></p>
-            <p className="testi37">my craziest ideas I finally found Rushbee Studios. They were not only</p><br/>
-            <p className="testi38">highly professional, but they understand me from just 1 word what</p>
-            <p className="testi39">I want to achieve. It is very rare quality in this world.</p>
-            <p className="testi40">I highly recommend the design service by graphicdesigner2b.</p>
-            <p className="testi41">I wish huge success!</p>
-           </div>
-          </div>
-        </Slider>
+        </div>
+      </div>
+      
+      <div class="slide_buttons">
+      </div>
+      
           </div>
 
 
