@@ -351,6 +351,7 @@ margin-top: 40px;
         font-size: 9.5px;
         line-height: 0px;
         margin-left: 36px;
+        margin-top: 5px;
     }
     .card50
     .abouthead{
@@ -408,17 +409,17 @@ margin-top: 40px;
     }
       
     .Group4{
-        margin-top: -19px;
+        margin-top: -24px;
         float: right;
-        margin-right: 10px;
+        margin-right: 5px;
         width: 30px;
         height: 50px;
     }
     .Group5{
-        margin-top: -69px;
+        margin-top: -72px;
         width: 30px;
         height: 50px;
-        margin-left: 10px;
+        margin-left: 5px;
     }
 }
 
@@ -1292,7 +1293,6 @@ margin-top: 40px;
 
 
 
-/* This is testimony section */
 
 
 
@@ -1377,6 +1377,15 @@ margin-top: 40px;
         margin-left: 8.5%;
     }
 }
+@media screen and (max-width: 1440px) {
+    .vl11{
+        margin-top: 100px;
+        margin-left: -1px;
+    }
+    .vl22{
+        margin-top: -168px;
+    }
+}
 @media screen and (max-width: 1024px) {
     .avatars{
         width: 80%;
@@ -1447,11 +1456,11 @@ margin-top: 40px;
 
 @media screen and (max-width: 380px) {
     .avatars{
-        background: red;
+       
         width: 100%;
         height: 200px;
         margin-left: 0px;
-        margin-top: 2000px;
+        margin-top: 1400px;
     }
     .avatar5{
         position: absolute;
@@ -1461,7 +1470,7 @@ margin-top: 40px;
     }
     .avatar1{
         position: absolute;
-        margin-top: 95px;
+        margin-top: 130px;
         margin-left: 30px;
         width: 50px;
     }
@@ -1471,7 +1480,7 @@ margin-top: 40px;
         width: 50px;
     }
     .avatar3{
-        margin-top: 119px;
+        margin-top: 116px;
         margin-left: 60px;
         width: 50px;
     }
@@ -1482,15 +1491,7 @@ margin-top: 40px;
     }
 }
 
-@media screen and (max-width: 1440px) {
-    .vl11{
-        margin-top: 100px;
-        margin-left: -1px;
-    }
-    .vl22{
-        margin-top: -168px;
-    }
-}
+
 
 
 
@@ -1871,65 +1872,49 @@ margin-top: 40px;
     margin-left: 230px;
 }
 
-
-@media screen and (max-width: 425px) {
-    .testimony{
-        width: 100%;
-        height: 300px;
-        margin-left: 0px;
-        top: -450px;
-    }
-    .group51{
-        margin-top: 0px;
-        height: 50px;
-    }
-    .group52{
-        height: 50px;
-        margin-top: 200px; 
-    }
-    .testiimage{
-        width: 100px;
-        height: 50px;
-        background: red;
-    }
-    .testi1,.testi2,.testi3,.testi4,.testi5{
-        
-        font-size:6px;
-        color: red;
-        width: 700px;
-        margin-top: 80px;
-        margin-left: -500px;
-        z-index: 2;
-    }
-    
-}
-@media screen and (max-width: 380px) {
-    .testimony{
-        width: 100%;
-        height: 400px;
-        margin-left: 0px;
-        top: -150px;
-    }
-    .group51{
-        margin-top: 0px;
-        height: 50px;
-    }
-    .group52{
-        height: 50px;
-        margin-top: 300px;
-        
-    }
-}
-
-
-
 /* this is for pc */
+@media screen and (max-width: 1440px) {
+    .testimony{
+        margin-left: 8.5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .testimony{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .testihead{
+        margin-left: 315px;
+    }
+    .testihr{
+        margin-left: 332px;
+    }
+}
+
+
+
+/* this is for mobile */
 @media screen and (max-width: 425px) {
     .testimony{
         width: 100%;
         height: 300px;
         margin-left: 0px;
         top: -450px;
+    }
+    .testihead{
+        font-size: 13px;
+        margin-top: -270px;
+        margin-left: 160px;
+        display: none;
+    }
+    .testihr{
+        margin-left: 170px;
+        border: 1px solid black;
+        height: 1px;
+        width: 60px;
+        margin-top: -250px;
+        display: none;
     }
     .group51{
         margin-top: 0px;
@@ -1946,42 +1931,206 @@ margin-top: 40px;
         margin-left: 25px;
         margin-top: 180px;
     }
-    .testimony-data{
-        
-    }
+   
     .testi1{
-        font-size:8px;
-        color: red;
-        width: 700px;
-        margin-top: 80px;
-        margin-left: -300px
+        margin-left: 40px;
+        margin-top: 50px;
     }
     .testi2{
-        font-size: 8px;
-        margin-left: -260px;
+        margin-left: 100px;
     }
+    
     .testi3{
-        color: red;
-        margin-left: -20px;
+        margin-top: -30px;
+        margin-left: 60px;
     }
-
+    .testi4{
+        margin-left: 60px;
+    }
+    .testi7{
+        margin-top: -30px;
+        margin-left: 35px;
+    }
+    .testi11{
+        margin-top: -30px; 
+    }
+    .testi12{
+        margin-top: -15px;
+    }
+    .testi16{
+        margin-top: -30px;
+    }
+    .testi17{
+        margin-left: 50px;
+    }
+    .testi20{
+        margin-top: -30px;
+    }
+    .testi21{
+        margin-left: 3px;
+    }
+    .testi22{
+        margin-left: 70px;
+    }
+    .testi25{
+        margin-top: -30px;
+    }
+    .testi29{
+        margin-top: -30px;
+    }
+    .testi32{
+        margin-left: 60px;
+    }
+    .testi34{
+        margin-left: 60px;
+    }
+    .testi35{
+        margin-top: -30px;
+    }
+    .testi36{
+        margin-left:60px;
+    }
+    .testi37{
+        margin-left: 100px;
+    }
+    .testi40{
+        margin-top: -30px;
+    }
+    .testi41{
+        margin-left: 70px;
+    }
+    .testi43{
+        margin-left: 140px;
+    }
     .slick-slider{
         width: 100%;
         margin-top: 120px;
     }
+   
     .vl8{
-        height: 120px;
-        margin-top: -80px;
-        margin-left: -230px;
+        width: 200px;
+        border: 1px solid black;
+        height: 1px;
+        margin-top: -60px;
+        margin-left: -280px;
+    }
+    .slider {
+        margin: 0 auto;
+        max-width: 439px;
+        margin-top: -350px;
+      }
+      .slideimage{
+          width: 80px;
+          height: 50px;
+          margin-left: 173px;
+          margin-top: 10px;
+      }
+      .slide_viewer {
+        height: 233px;
+        overflow: hidden;
+        position: relative;
+        width: 428px;
+        margin-left: -29px;
+        margin-top: 98px;
+       
+    }
+    .slide_buttons{
+        color: #7d7d7d;
+    }
+    .slide_group{
+        margin-left: 20px;
+    }
+    .testimony-data{
+        position: absolute;
+        font-size: 10px;
+        font-family: Poppins;
+        margin-left: 40px;
+        margin-top: 60px;
+        width: 500px;
+    }
+    .testimony-data2{
+        position: absolute;
+        font-size: 10px;
+        font-family: Poppins;
+        margin-left: 40px;
+        margin-top: 130px;
+    }
+    .testimony-data9{
+        position: absolute;
+        font-size: 10px;
+        font-family: Poppins;
+        margin-left: 40px;
+        margin-top: 180px;
+    }
+    .testimony-data3{
+        position: absolute;
+        font-size: 10px;
+        font-family: Poppins;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .testimony-data4{
+        position: absolute;
+        font-size: 10px;
+        font-family: Poppins;
+        margin-left: 40px;
+        margin-top: 60px;
+    }
+    .testimony-data5{
+        position: absolute;
+        font-size: 10px;
+        font-family: Poppins;
+        margin-left: 40px;
+        margin-top: 60px;
+    }
+    .testimony-data6{
+        position: absolute;
+        font-size: 10px;
+        font-family: Poppins;
+        margin-left: 60px;
+        margin-top: 10px;
     }
     
+    .testimony-data7{
+        position: absolute;
+        font-size: 10px;
+        font-family: Poppins;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+    .testimony-data8{
+        position: absolute;
+        font-size: 10px;
+        font-family: Poppins;
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+  
 }
+   
+    
+
 @media screen and (max-width: 380px) {
     .testimony{
         width: 100%;
-        height: 400px;
+        height: 300px;
         margin-left: 0px;
-        top: -150px;
+        top: -450px;
+    }
+    .testihead{
+        font-size: 13px;
+        margin-top: -270px;
+        margin-left: 160px;
+        display: none;
+    }
+    .testihr{
+        margin-left: 170px;
+        border: 1px solid black;
+        height: 1px;
+        width: 60px;
+        margin-top: -250px;
+        display: none;
     }
     .group51{
         margin-top: 0px;
@@ -1989,7 +2138,186 @@ margin-top: 40px;
     }
     .group52{
         height: 50px;
-        margin-top: 300px;
-        
+        margin-top: 200px; 
+    }
+    .testiimage{
+        width: 100px;
+        height: 50px;
+        background: red;
+        margin-left: 25px;
+        margin-top: 180px;
+    }
+   
+    .testi1{
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .testi2{
+        margin-left: 100px;
+    }
+    
+    .testi3{
+        margin-top: -30px;
+        margin-left: 60px;
+    }
+    .testi4{
+        margin-left: 60px;
+    }
+    .testi7{
+        margin-top: -30px;
+        margin-left: 35px;
+    }
+    .testi11{
+        margin-top: -30px; 
+    }
+    .testi12{
+        margin-top: -15px;
+    }
+    .testi16{
+        margin-top: -30px;
+    }
+    .testi17{
+        margin-left: 50px;
+    }
+    .testi20{
+        margin-top: -30px;
+    }
+    .testi21{
+        margin-left: 3px;
+    }
+    .testi22{
+        margin-left: 70px;
+    }
+    .testi25{
+        margin-top: -30px;
+    }
+    .testi29{
+        margin-top: -30px;
+    }
+    .testi32{
+        margin-left: 60px;
+    }
+    .testi34{
+        margin-left: 60px;
+    }
+    .testi35{
+        margin-top: -30px;
+    }
+    .testi36{
+        margin-left:60px;
+    }
+    .testi37{
+        margin-left: 100px;
+    }
+    .testi40{
+        margin-top: -30px;
+    }
+    .testi41{
+        margin-left: 70px;
+    }
+    .testi43{
+        margin-left: 140px;
+    }
+    .slick-slider{
+        width: 100%;
+        margin-top: 120px;
+    }
+   
+    .vl8{
+        width: 200px;
+        border: 1px solid black;
+        height: 1px;
+        margin-top: -60px;
+        margin-left: -301px;
+    }
+    .slider {
+        margin: 0 auto;
+        max-width: 439px;
+        margin-top: -350px;
+      }
+      .slideimage{
+          width: 80px;
+          height: 50px;
+          margin-left: 159px;
+          margin-top: 10px;
+      }
+      .slide_viewer {
+        height: 233px;
+        overflow: hidden;
+        position: relative;
+        width: 428px;
+        margin-left: -29px;
+        margin-top: 98px;
+       
+    }
+  
+    .slide_group{
+        margin-left: 20px;
+    }
+    .testimony-data{
+        position: absolute;
+        font-size: 9px;
+        font-family: Poppins;
+        margin-left: 40px;
+        margin-top: 60px;
+        width: 500px;
+    }
+    .testimony-data2{
+        position: absolute;
+        font-size: 9px;
+        font-family: Poppins;
+        margin-left: 40px;
+        margin-top: 130px;
+    }
+    .testimony-data9{
+        position: absolute;
+        font-size: 9px;
+        font-family: Poppins;
+        margin-left: 40px;
+        margin-top: 180px;
+    }
+    .testimony-data3{
+        position: absolute;
+        font-size: 9px;
+        font-family: Poppins;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .testimony-data4{
+        position: absolute;
+        font-size: 9px;
+        font-family: Poppins;
+        margin-left: 40px;
+        margin-top: 60px;
+    }
+    .testimony-data5{
+        position: absolute;
+        font-size: 9px;
+        font-family: Poppins;
+        margin-left: 40px;
+        margin-top: 60px;
+    }
+    .testimony-data6{
+        position: absolute;
+        font-size: 10px;
+        font-family: Poppins;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+    
+    .testimony-data7{
+        position: absolute;
+        font-size: 10px;
+        font-family: Poppins;
+        margin-left: -22px;
+        margin-top: 10px;
+    }
+    
+    .testimony-data8{
+        position: absolute;
+        font-size: 10px;
+        font-family: Poppins;
+        margin-left: 20px;
+        margin-top: 60px;
     }
 }
