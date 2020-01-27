@@ -23,8 +23,10 @@ class App extends Component {
     const links = document.querySelectorAll(".nav-links li");
 
     hamburger.addEventListener("click", () => {
-      navLinks.classList.toggle("open");
+      navLinks.classList.toggle("open"); 
 });
+
+
   }
   
   render() {

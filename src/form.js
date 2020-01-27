@@ -46,10 +46,10 @@ class form extends Component {
              {/* This is map */}
             <div className="contactbox">
              <div className="Contact-area2">
-                <NavLink to="https://www.google.com/maps/place/Rushbee+Studio's/@12.9391229,77.6265289,15z/data=!4m5!3m4!1s0x0:0x10217d16a27c5108!8m2!3d12.9391229!4d77.6265289" target="_blank">
+                <a href="https://www.google.com/maps/place/Rushbee+Studio's/@12.9391229,77.6265289,15z/data=!4m5!3m4!1s0x0:0x10217d16a27c5108!8m2!3d12.9391229!4d77.6265289" target="_blank">
                     <img src={addressmap} className="addressmap" alt=""></img>
                     <img className="Group19" src={Group19} alt=""></img>
-                </NavLink>
+                </a>
             </div>
 
                
@@ -65,10 +65,10 @@ class form extends Component {
                       <p className="details2">E-MAIL - rushbeestudios@gmail.com</p>
                       <p className="address"> 
                           <h2>ADDRESS:-</h2>
-                          AUTHURA Co-Working Space,<br/>
-                          5th Block, 2nd Floor,99D,2nd Cross Road,<br/>
-                          KHB Colony,Kormanagala,<br/>
-                          Bengaluru,560095<br/>
+                          RUSHBEE STUDIOS,<br/>
+                          No 12, 3rd cross, Patel Narayan Reddy Layout,<br/>
+                          Ejipura, 6th Block, Koramangala,<br/>
+                          Bengaluru, 560095<br/>
                           India
                       </p>
 
@@ -85,8 +85,8 @@ class form extends Component {
                             <button className="btn btn-warning btn2"><a href="#"><h6>Get Connected</h6></a></button>
                           </div>
                           {/* This is verticle line in left side of the contact */}
-                          <div className="vl1"></div>
-                          <div className="vl2"></div>
+                          <div className="vl11"></div>
+                          <div className="vl22"></div>
                           <hr className="new1"></hr>
                           
                           {/* This is navbar below the hr line */}

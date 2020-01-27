@@ -24,6 +24,19 @@
 .Group{
     width: 50%;
 }
+.vl11{
+  border-left: 2px solid #E6BA33;
+  height: 15px;
+  margin-top: -180px;
+  margin-left: -1px;
+}
+.vl22{
+  border-left: 2px solid #E6BA33;
+  height: 15px;
+  margin-left: 1166px;
+  margin-top: -183px;
+  margin-left: 1068px;
+}
 
 
 /* this is image slider */
@@ -197,6 +210,9 @@ input[type=radio]:checked {
 @media screen and (max-width: 1440px) {
     .Contact-area1{
         height: 350px;
+    }
+    .vl11{
+      margin-top: -183px;
     }
 }
 @media screen and (max-width: 1024px) {

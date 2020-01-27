@@ -380,8 +380,8 @@ componentDidMount = () =>{
                             <button className="btn btn-warning btn2"><a href="#"><h6>Get Connected</h6></a></button>
                           </div>
                           {/* This is verticle line in left side of the contact */}
-                          <div className="vl1"></div>
-                          <div className="vl2"></div>
+                          <div className="vl11"></div>
+                          <div className="vl22"></div>
                           <hr className="new1"></hr>
                           
                           {/* This is navbar below the hr line */}
