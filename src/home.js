@@ -18,7 +18,13 @@ import logo8 from './images/logo8.png'
 import logo9 from './images/logo9.png'
 import Group19 from './images/Group19.png'
 import addressmap from './images/addressmap.png'
-import { NavLink } from  "react-router-dom"
+import {
+    Route,
+    NavLink,
+    Link,
+    HashRouter
+  } from "react-router-dom";
+  import form from "./form";
 
 
 
@@ -437,8 +443,12 @@ Solution'!</p>
                             <a href="https://www.facebook.com/rush-bee-studios-106994060665768/" target="_blank"><div className="icon2"><i className="fa fa-facebook-official" aria-hidden="true"></i></div></a>
                             {/* <div className="icon4"><i className="fa fa-instagram" aria-hidden="true"></i></div> */}
 
-                            
-                           <button className="btn btn-warning btn2"><a href="#"><h6>Get Connected</h6></a></button>
+                        <Link to="/form">
+                            <button className="btn btn-warning btn2"><h6>Get Connected</h6></button>
+                        </Link>
+                        <div className="content">
+                        <Route exact path="/form" component={form}/>
+                        </div>
                           </div>
                           {/* This is verticle line in left side of the contact */}
                           <div className="vl1"></div>
